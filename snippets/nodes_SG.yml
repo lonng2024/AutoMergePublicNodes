@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: a1896d14-a6d6-4552-bb04-50b63c062404
+  password: d1b00f03-f12f-450c-ae89-b6172f35ae84
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: a1896d14-a6d6-4552-bb04-50b63c062404
+  password: d1b00f03-f12f-450c-ae89-b6172f35ae84
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: a1896d14-a6d6-4552-bb04-50b63c062404
+  password: d1b00f03-f12f-450c-ae89-b6172f35ae84
   port: 36175
   server: free.2weradf.xyz
   type: ss
@@ -76,24 +76,3 @@ proxies:
     headers:
       Host: tyep.esslh.filegear-sg.me
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: c3b9e0ac-fb83-42c3-af47-9f2e6fb60af8
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: c3b9e0ac-fb83-42c3-af47-9f2e6fb60af8
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: c3b9e0ac-fb83-42c3-af47-9f2e6fb60af8
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

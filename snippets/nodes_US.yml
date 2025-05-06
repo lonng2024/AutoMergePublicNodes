@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 9db6ef5a-a5c9-4253-b1b2-37833ad7a69a
+  password: a71a3a95-9d00-4a1b-9bf4-c69be594a8e9
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 9db6ef5a-a5c9-4253-b1b2-37833ad7a69a
+  password: a71a3a95-9d00-4a1b-9bf4-c69be594a8e9
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 9db6ef5a-a5c9-4253-b1b2-37833ad7a69a
+  password: a71a3a95-9d00-4a1b-9bf4-c69be594a8e9
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 50c2ae20-8f9d-4874-b03f-1671508de8f8
+  password: 7f983335-0887-4a1f-b202-97983a42a9fb
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 50c2ae20-8f9d-4874-b03f-1671508de8f8
+  password: 7f983335-0887-4a1f-b202-97983a42a9fb
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 50c2ae20-8f9d-4874-b03f-1671508de8f8
+  password: 7f983335-0887-4a1f-b202-97983a42a9fb
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -569,33 +569,7 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- name: 14|US_speednode_0147
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 154.219.5.87
-  skip-cert-verify: true
-  sni: epccg.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epccg.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 14|US_speednode_0150
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.76
-  skip-cert-verify: true
-  sni: epccg.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epccg.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 14|US_speednode_0157
+- name: 14|US_speednode_0113
   network: ws
   password: redfree8
   port: 443
@@ -608,20 +582,7 @@ proxies:
     headers:
       Host: ipsychO.SUEx12.Ir
     path: /trre5IzbZ9IZZMddtw?ed=2560
-- name: 14|US_speednode_0178
-  network: ws
-  password: auto
-  port: 443
-  server: 172.66.45.2
-  skip-cert-verify: false
-  sni: dcf741e8.epeius-2gy.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: dcf741e8.epeius-2gy.pages.dev
-    path: /
-- name: 14|US_speednode_0187
+- name: 14|US_speednode_0127
   network: ws
   password: '!!str 12345678'
   port: 443
@@ -634,42 +595,3 @@ proxies:
     headers:
       Host: 7bdfb97a.ikl.pages.dev
     path: /7bdfb97a.ikl.pages.dev
-- name: 14|US_speednode_0190
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 135.84.74.254
-  skip-cert-verify: false
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epcch.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 14|US_speednode_0192
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 192.200.160.15
-  skip-cert-verify: false
-  sni: epcch.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epcch.ambercc.filegear-sg.me
-    path: /
-- name: 14|US_speednode_0200
-  network: ws
-  password: auto
-  port: 443
-  server: 172.66.45.2
-  skip-cert-verify: false
-  sni: dcf741e8.epeius-2gy.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: dcf741e8.epeius-2gy.pages.dev
-    path: /?ed=2560

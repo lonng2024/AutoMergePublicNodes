@@ -1,29 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 62dd7e98-b7ea-4310-9c27-369c069e2c86
-  port: 31241
-  server: free.2apzhfa.xyz
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 34bbcf31-fe78-454d-a083-fba399f3dd11
+  port: 36241
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 62dd7e98-b7ea-4310-9c27-369c069e2c86
-  port: 31243
-  server: free.2apzhfa.xyz
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 34bbcf31-fe78-454d-a083-fba399f3dd11
+  port: 36243
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 62dd7e98-b7ea-4310-9c27-369c069e2c86
-  port: 31245
-  server: free.2apzhfa.xyz
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 34bbcf31-fe78-454d-a083-fba399f3dd11
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   port: 3687
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   skip-cert-verify: false
@@ -33,7 +33,7 @@ proxies:
   uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 13|台湾2|@ripaojiedian
+  name: 12|台湾2|@ripaojiedian
   network: tcp
   port: '3687'
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -41,3 +41,24 @@ proxies:
   tls: false
   type: vmess
   uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: c3792eb9-c4a7-4647-a436-9e31b32420e4
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: c3792eb9-c4a7-4647-a436-9e31b32420e4
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: c3792eb9-c4a7-4647-a436-9e31b32420e4
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

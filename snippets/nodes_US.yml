@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: a8e09c2d-ff52-4508-9ca8-bca1d0dbf9b0
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: a8e09c2d-ff52-4508-9ca8-bca1d0dbf9b0
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: a8e09c2d-ff52-4508-9ca8-bca1d0dbf9b0
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: b875d629-9927-4a31-8f5b-861419a80c3c
   port: 31215
   server: free.2apzhfa.xyz
   type: ss

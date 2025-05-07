@@ -1,224 +1,224 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇯🇵日本 01 | 1x JP
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇯🇵日本 02 | 1x JP
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇯🇵日本 03 | 1x JP
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇵🇭菲律宾 01 | 1x PH
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇵🇭菲律宾 01 | 1x PH
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31341
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇭泰国01  | 1x TH
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇹🇭泰国01  | 1x TH
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31741
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚01 | 1x MY
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇲🇾马来西亚01 | 1x MY
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31721
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚02 | 1x MY
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇲🇾马来西亚02 | 1x MY
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31722
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇳印度 01 | 1x IN
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇮🇳印度 01 | 1x IN
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31371
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇦🇺澳大利亚 01 | 1x AU
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇦🇺澳大利亚 01 | 1x AU
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31411
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇷土耳其 01 | 1x TR
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇹🇷土耳其 01 | 1x TR
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31571
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇦乌克兰 01 | 1x UA
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇺🇦乌克兰 01 | 1x UA
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31611
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇻🇳越南 01 | 1x VN
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇻🇳越南 01 | 1x VN
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31641
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇧🇷巴西 01 | 1x BR
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇧🇷巴西 01 | 1x BR
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31671
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇩印度尼西亚 01 | 1x ID
-  password: 163fb461-1638-4e16-bb2c-ea675616d540
+  name: 2|🇮🇩印度尼西亚 01 | 1x ID
+  password: 5950cd4b-80da-4d80-b403-d5d0a3dd6e39
   port: 31677
   server: free.2apzhfa.xyz
   type: ss

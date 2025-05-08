@@ -1,27 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 5dc8485e-4179-4e1d-ba04-9d0ce4c40306
+  password: 96630edf-909c-47a2-814a-4dadfe17f41b
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 5dc8485e-4179-4e1d-ba04-9d0ce4c40306
+  password: 96630edf-909c-47a2-814a-4dadfe17f41b
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 818467e4-3ca5-4865-93c2-2a0a617b4acd
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: awsps0501
   port: 443
   server: 54.199.249.6
   tfo: false
   type: ss
-- name: 13|KR_speednode_0007
+- name: 14|KR_speednode_0007
   network: ws
   port: 12365
   server: 220.120.172.116
@@ -35,10 +42,3 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 53c56bf9-cdae-4fb1-9468-5af3a2388457
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

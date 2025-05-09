@@ -1,7 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 18bf9b55-1847-42bf-8ff9-fdd12e038ca8
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: dc210e23-fead-4b47-846f-492a262780be
+  password: 18bf9b55-1847-42bf-8ff9-fdd12e038ca8
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
@@ -134,21 +141,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: a6cf54e4-de8d-4777-aff2-34c8cb32467f
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: a6cf54e4-de8d-4777-aff2-34c8cb32467f
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -156,7 +149,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0016
+- name: 13|GB_speednode_0016
   network: ws
   port: 24443
   server: 213.210.55.72
@@ -171,7 +164,7 @@ proxies:
       Host: miku.mikuru.ip-ddns.com
     path: /
 - client-fingerprint: chrome
-  name: 14|GB_speednode_0017
+  name: 13|GB_speednode_0017
   network: ws
   port: 9200
   server: 139.59.181.80
@@ -185,3 +178,17 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: e38ef9ac-1fc5-4964-8943-a2c518c604ce
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: e38ef9ac-1fc5-4964-8943-a2c518c604ce
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

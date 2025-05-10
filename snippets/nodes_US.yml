@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: aede9a3a-646d-4d2f-a8d0-503ff909f48b
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: c5210d85-2494-4599-9d00-12baf6a23f85
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: aede9a3a-646d-4d2f-a8d0-503ff909f48b
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: c5210d85-2494-4599-9d00-12baf6a23f85
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: aede9a3a-646d-4d2f-a8d0-503ff909f48b
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: c5210d85-2494-4599-9d00-12baf6a23f85
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -202,24 +202,24 @@ proxies:
   tls: true
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: e7c8d183-2ff0-40be-a577-07fb588f851d
-  port: 36211
-  server: free.2weradf.xyz
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: c33e27b5-f47c-4d6f-910b-149c6ff6f38c
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: e7c8d183-2ff0-40be-a577-07fb588f851d
-  port: 36213
-  server: free.2weradf.xyz
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: c33e27b5-f47c-4d6f-910b-149c6ff6f38c
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: e7c8d183-2ff0-40be-a577-07fb588f851d
-  port: 36215
-  server: free.2weradf.xyz
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: c33e27b5-f47c-4d6f-910b-149c6ff6f38c
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 2

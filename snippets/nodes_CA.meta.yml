@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 24996967-cfa3-4082-a42e-bf7db4fff59e
-  port: 36441
-  server: free.2weradf.xyz
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: d3c336c0-d0c0-441e-9506-7763ac312a26
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 1|🇨🇦1 |  4.8MB/s|63%|Netflix|Dis...
@@ -49,9 +49,9 @@ proxies:
       Host: lx.ylks0033.dpdns.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 903d5d64-829b-4b6b-a960-a374cab45c5e
-  port: 31441
-  server: free.2apzhfa.xyz
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: cae1260e-cc95-49bc-a301-7ab7a23ec23c
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true

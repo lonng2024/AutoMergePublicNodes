@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 24996967-cfa3-4082-a42e-bf7db4fff59e
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: d3c336c0-d0c0-441e-9506-7763ac312a26
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 24996967-cfa3-4082-a42e-bf7db4fff59e
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: d3c336c0-d0c0-441e-9506-7763ac312a26
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 24996967-cfa3-4082-a42e-bf7db4fff59e
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: d3c336c0-d0c0-441e-9506-7763ac312a26
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: random
@@ -904,7 +904,7 @@ proxies:
     headers:
       Host: 7bhui.191262.xyz
     path: /wGgR8FyAGgRCKSiyxgvJgLl
-- name: 1,13|US_speednode_0043
+- name: 1,14|US_speednode_0043
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
   server: daadef2d-sw1z40-swy6li-tni2.los.gotochinatown.net
@@ -1279,10 +1279,31 @@ proxies:
   skip-cert-verify: false
   sni: us.10101251.xyz
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: cae1260e-cc95-49bc-a301-7ab7a23ec23c
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: cae1260e-cc95-49bc-a301-7ab7a23ec23c
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: cae1260e-cc95-49bc-a301-7ab7a23ec23c
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -1298,7 +1319,7 @@ proxies:
     path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1310,7 +1331,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
+  name: 12|🇺🇸 美国3|@ripaojiedian
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.114.114.108
@@ -1319,7 +1340,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -1336,7 +1357,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国5|@ripaojiedian
+  name: 12|🇺🇸 美国5|@ripaojiedian
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
@@ -1346,7 +1367,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|美国5|@ripaojiedian
+  name: 13|美国5|@ripaojiedian
   network: tcp
   port: '46759'
   server: 120.198.71.216
@@ -1354,7 +1375,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|US_speednode_0028
+- name: 14|US_speednode_0028
   network: ws
   port: 8880
   server: 135.84.76.75
@@ -1370,7 +1391,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|US_speednode_0030
+  name: 14|US_speednode_0030
   port: 7885
   reality-opts:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
@@ -1382,7 +1403,7 @@ proxies:
   type: vless
   udp: true
   uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-- name: 13|US_speednode_0031
+- name: 14|US_speednode_0031
   network: ws
   port: 2087
   server: 104.16.82.210
@@ -1396,7 +1417,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: 13|US_speednode_0032
+- name: 14|US_speednode_0032
   network: ws
   port: 31001
   server: 45.32.131.28
@@ -1411,7 +1432,7 @@ proxies:
       Host: madcity2.777999.lol
     path: /?ed=2560
 - client-fingerprint: random
-  name: 13|US_speednode_0033
+  name: 14|US_speednode_0033
   network: ws
   port: 443
   server: 104.16.211.129
@@ -1425,7 +1446,7 @@ proxies:
     headers:
       Host: taoj.eu.org
     path: /?ed=2560
-- name: 13|US_speednode_0034
+- name: 14|US_speednode_0034
   network: ws
   port: 443
   server: 104.16.95.143
@@ -1439,7 +1460,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: 13|US_speednode_0035
+- name: 14|US_speednode_0035
   network: ws
   port: 2053
   server: 104.16.190.87
@@ -1456,7 +1477,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: random
-  name: 13|US_speednode_0037
+  name: 14|US_speednode_0037
   network: ws
   port: 443
   server: 108.162.195.82
@@ -1471,7 +1492,7 @@ proxies:
       Host: edccj.ambercc.filegear-sg.me
     path: /?ed=2560
 - client-fingerprint: random
-  name: 13|US_speednode_0038
+  name: 14|US_speednode_0038
   network: ws
   port: 50964
   server: 198.46.215.183
@@ -1488,7 +1509,7 @@ proxies:
 - alpn:
   - ''
   client-fingerprint: randomized
-  name: 13|US_speednode_0039
+  name: 14|US_speednode_0039
   network: ws
   port: 443
   server: 172.66.44.68
@@ -1502,7 +1523,7 @@ proxies:
     headers:
       Host: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
     path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2560
-- name: 13|US_speednode_0040
+- name: 14|US_speednode_0040
   network: ws
   port: 443
   server: 160.79.104.113
@@ -1516,7 +1537,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /
-- name: 13|US_speednode_0041
+- name: 14|US_speednode_0041
   network: ws
   password: Aimer
   port: 443
@@ -1529,7 +1550,7 @@ proxies:
     headers:
       Host: epccj.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 13|US_speednode_0042
+- name: 14|US_speednode_0042
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: chicago.sqx001.com
@@ -1538,7 +1559,7 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- name: 13|US_speednode_0044
+- name: 14|US_speednode_0044
   network: ws
   port: 443
   server: 45.202.113.236
@@ -1552,7 +1573,7 @@ proxies:
     headers:
       Host: haxus3.lzj520hxw.dpdns.org
     path: /lzjjjjjjjjj66666666666
-- name: 13|US_speednode_0045
+- name: 14|US_speednode_0045
   network: ws
   port: 2052
   server: 14.102.228.77
@@ -1566,7 +1587,7 @@ proxies:
     headers:
       Host: sPeedtest2.sbs.se.vless.sitespeedtest.net
     path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
-- name: 13|US_speednode_0046
+- name: 14|US_speednode_0046
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: hochiminh.sqx001.com
@@ -1575,24 +1596,3 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 903d5d64-829b-4b6b-a960-a374cab45c5e
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 903d5d64-829b-4b6b-a960-a374cab45c5e
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 903d5d64-829b-4b6b-a960-a374cab45c5e
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

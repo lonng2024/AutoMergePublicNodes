@@ -1,19 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: b1062ce4-97da-4bda-b3a5-41b9485d1c3b
+  password: 5e066934-6b6b-4880-abc7-df51b1cb8a00
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b1062ce4-97da-4bda-b3a5-41b9485d1c3b
+  password: 5e066934-6b6b-4880-abc7-df51b1cb8a00
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇭🇰1 |  1.2MB/s|0%|Netflix|Disn...
+- name: 1|🇭🇰1 |  1.3MB/s|0%
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: dozo01.flztjc.top
@@ -21,12 +21,26 @@ proxies:
   sni: dozo01.flztjc.top
   type: trojan
   udp: true
-- name: 1|🇭🇰2 |  1.3MB/s|0%|Disney
+- name: 1|🇭🇰2 |  3.6MB/s|Disney
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: 183.232.235.2
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: f27288b5-6dc4-4c60-b2fd-6ddc9a4a5a7a
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: f27288b5-6dc4-4c60-b2fd-6ddc9a4a5a7a
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian

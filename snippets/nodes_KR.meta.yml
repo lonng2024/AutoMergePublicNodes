@@ -1,28 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 5dc6abd6-c2f1-46e8-b104-e1b8ae5c2ba0
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 5451ebb9-2d72-4661-969e-693389505cae
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 979e8aa1-71e1-40c3-b8c4-47655609e383
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 5451ebb9-2d72-4661-969e-693389505cae
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 979e8aa1-71e1-40c3-b8c4-47655609e383
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇰🇷5 |  5.1MB/s|63%|Youtube|Ope...
+  name: 1|🇰🇷5 |  5.1MB/s|63%|Youtube|Ope...
   network: ws
   port: 2087
   server: lv4.789900.xyz
@@ -37,7 +30,7 @@ proxies:
       Host: lv4.789900.xyz
     path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
   xudp: true
-- name: 2|🇰🇷2 |  2.5MB/s|62%|Disney
+- name: 1|🇰🇷2 |  2.5MB/s|62%|Disney
   network: ws
   port: 443
   server: 45.67.215.114
@@ -52,7 +45,7 @@ proxies:
       host: lx.ylks0033.dpdns.org
     path: /?ed=2560
 - delay: 2899
-  name: 2|🇰🇷3 |  2.1MB/s|23%|Netflix|Dis...
+  name: 1|🇰🇷3 |  2.1MB/s|23%|Netflix|Dis...
   network: ws
   port: 443
   server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
@@ -69,7 +62,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇰🇷4 |  5.4MB/s|62%|Netflix|Dis...
+  name: 1|🇰🇷4 |  5.4MB/s|62%|Netflix|Dis...
   network: ws
   port: '443'
   server: 172.66.47.92
@@ -85,7 +78,7 @@ proxies:
         Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: ''
   xudp: true
-- name: 2|🇰🇷6 |  1.9MB/s|62%|Netflix|Dis...
+- name: 1|🇰🇷6 |  1.9MB/s|62%|Netflix|Dis...
   network: ws
   port: 443
   server: 158.224.83.166
@@ -99,7 +92,7 @@ proxies:
     headers:
       host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷7 |  3.6MB/s|62%|Disney
+- name: 1|🇰🇷7 |  3.6MB/s|62%|Disney
   network: ws
   port: 443
   server: 140.238.212.95
@@ -113,7 +106,7 @@ proxies:
     headers:
       host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷8 |  1.1MB/s|62%|Netflix|Dis...
+- name: 1|🇰🇷8 |  1.1MB/s|62%|Netflix|Dis...
   network: ws
   port: 443
   server: 185.133.35.201
@@ -127,7 +120,7 @@ proxies:
     headers:
       host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷9 |  1.1MB/s|62%|Netflix|Dis...
+- name: 1|🇰🇷9 |  1.1MB/s|62%|Netflix|Dis...
   network: ws
   port: 443
   server: rustam.ns.cloudflare.com
@@ -141,7 +134,7 @@ proxies:
     headers:
       host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷10 |  1.2MB/s|Netflix|Disney...
+- name: 1|🇰🇷10 |  1.2MB/s|Netflix|Disney...
   network: ws
   port: 443
   server: 160.123.255.76
@@ -155,7 +148,7 @@ proxies:
     headers:
       host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷11 |  3.7MB/s|62%|Netflix|Di...
+- name: 1|🇰🇷11 |  3.7MB/s|62%|Netflix|Di...
   network: ws
   port: 10912
   server: 116.47.10.236
@@ -171,7 +164,7 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19852
   server: h.cm2.xiaomi-api.xyz
@@ -179,13 +172,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: awsps0501
   port: 443
   server: 52.197.184.25
   tfo: false
   type: ss
-- name: 14|KR_speednode_0013
+- name: 13|KR_speednode_0013
   network: ws
   port: 50000
   server: 112.164.234.135
@@ -199,7 +192,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 14|KR_speednode_0014
+- name: 13|KR_speednode_0014
   network: ws
   port: 12297
   server: 220.73.70.34
@@ -214,7 +207,7 @@ proxies:
       Host: edccj.ambercc.filegear-sg.me
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|KR_speednode_0015
+  name: 13|KR_speednode_0015
   network: ws
   port: 10187
   server: 121.189.106.45
@@ -229,7 +222,7 @@ proxies:
       Host: mot.luyuju.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|KR_speednode_0016
+  name: 13|KR_speednode_0016
   network: ws
   port: 18796
   server: 61.74.213.66
@@ -243,3 +236,10 @@ proxies:
     headers:
       Host: mot.luyuju.dpdns.org
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: 1635f082-88f4-460c-aef8-576686e24f8f
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

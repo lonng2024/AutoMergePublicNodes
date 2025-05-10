@@ -1,14 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 5dc6abd6-c2f1-46e8-b104-e1b8ae5c2ba0
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 5451ebb9-2d72-4661-969e-693389505cae
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 979e8aa1-71e1-40c3-b8c4-47655609e383
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -17,7 +10,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 2|🇩🇪3 |  1.6MB/s|45%
+  name: 1|🇩🇪3 |  1.6MB/s|45%
   network: ws
   port: '443'
   server: cloudgetservice.mcloudservice.site
@@ -35,9 +28,16 @@ proxies:
     path: /linkws
   xudp: true
 - cipher: rc4-md5
-  name: 2|🇩🇪6 |  1.6MB/s|100%|Openai
+  name: 1|🇩🇪6 |  1.6MB/s|100%|Openai
   password: 14fFPrbezE3HDZzsMOr6
   port: '8080'
   server: 193.108.119.230
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 1635f082-88f4-460c-aef8-576686e24f8f
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true

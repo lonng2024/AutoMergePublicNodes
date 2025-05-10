@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 221214e1-93ea-4030-a334-651403db9496
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 221214e1-93ea-4030-a334-651403db9496
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 221214e1-93ea-4030-a334-651403db9496
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸8 |  2.1MB/s|40%|Netflix|Ope...
+  name: 2|🇺🇸8 |  2.1MB/s|40%|Netflix|Ope...
   network: ws
   port: '443'
   server: 104.16.0.0
@@ -38,7 +59,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸21 |  1.3MB/s|56%|Openai|Gem...
+  name: 2|🇺🇸21 |  1.3MB/s|56%|Openai|Gem...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -55,7 +76,7 @@ proxies:
     path: /linkws
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇺🇸26 |  4.7MB/s|Openai
+  name: 2|🇺🇸26 |  4.7MB/s|Openai
   password: RlzoEILU
   port: '7815'
   server: 36.151.251.59
@@ -64,7 +85,7 @@ proxies:
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸60 |  5.8MB/s|56%|Openai|Gem...
+  name: 2|🇺🇸60 |  5.8MB/s|56%|Openai|Gem...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -79,7 +100,7 @@ proxies:
     path: /linkvkws
   xudp: true
 - cipher: aes-256-gcm
-  name: 1|🇺🇸61 |  5.8MB/s|33%|Openai|Gem...
+  name: 2|🇺🇸61 |  5.8MB/s|33%|Openai|Gem...
   password: Oo1IXaMpJ5jPmAxL0Oo
   port: '43842'
   server: 192.243.112.43
@@ -87,7 +108,7 @@ proxies:
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸66 |  3.8MB/s|0%|Openai
+  name: 2|🇺🇸66 |  3.8MB/s|0%|Openai
   network: ws
   port: '443'
   server: xc132.meiziba5566.com
@@ -103,7 +124,7 @@ proxies:
     path: /28b33c85
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇺🇸67 |  1.3MB/s|56%|Openai|Gem...
+  name: 2|🇺🇸67 |  1.3MB/s|56%|Openai|Gem...
   network: ws
   password: aTArbZ2F0E
   port: '443'
@@ -119,31 +140,10 @@ proxies:
     path: /linkvkws
 - cipher: aes-256-gcm
   ip-version: dual
-  name: 1|🇺🇸71 |  2.1MB/s|23%|Netflix|Di...
+  name: 2|🇺🇸71 |  2.1MB/s|23%|Netflix|Di...
   password: 77a12a3d-6df0-48c8-a189-b071fcda1456
   port: 11511
   server: cdn-p1-us.youku-dns.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
-  port: 36215
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2

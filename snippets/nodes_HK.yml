@@ -1,43 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰1 |  2.0MB/s|0%|Netflix|Yout...
-  password: 887f01da-5b52-4dff-a80f-efe3380ac35f
-  port: 54016
-  server: chiyu.myfczy169.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰2 |  1.1MB/s|0%|Netflix|Yout...
-  password: OHJHa1cyZ0RnNlFxWHZQdGdrUGdqNXVo
-  port: '48019'
-  server: 45.196.235.33
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 221214e1-93ea-4030-a334-651403db9496
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 221214e1-93ea-4030-a334-651403db9496
   port: 36145
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰1 |  2.0MB/s|0%|Netflix|Yout...
+  password: 887f01da-5b52-4dff-a80f-efe3380ac35f
+  port: 54016
+  server: chiyu.myfczy169.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰2 |  1.1MB/s|0%|Netflix|Yout...
+  password: OHJHa1cyZ0RnNlFxWHZQdGdrUGdqNXVo
+  port: '48019'
+  server: 45.196.235.33
   type: ss
   udp: true
 - client-fingerprint: chrome

@@ -1,26 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  2.3MB/s|Openai
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 221214e1-93ea-4030-a334-651403db9496
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 221214e1-93ea-4030-a334-651403db9496
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬1 |  2.3MB/s|Openai
   network: ws
   port: '80'
   server: 141.193.213.20
@@ -35,7 +49,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇸🇬2 |  2.8MB/s|Youtube|Openai
+  name: 2|🇸🇬2 |  2.8MB/s|Youtube|Openai
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 8444
   server: singapore02.sqx001.com
@@ -44,20 +58,6 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

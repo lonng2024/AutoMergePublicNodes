@@ -1,9 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 26e37c59-db3c-4c4b-b229-e5f33dfc2c0e
+  password: 6702454f-31fe-43cf-b747-aa1fd8711ce5
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 221214e1-93ea-4030-a334-651403db9496
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -11,7 +18,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 1|🇩🇪1 |  2.7MB/s|0%|Openai
+  name: 2|🇩🇪1 |  2.7MB/s|0%|Openai
   network: tcp
   port: '443'
   reality-opts:
@@ -24,7 +31,7 @@ proxies:
   udp: true
   uuid: 33707040-edcf-4185-94e4-2a071315c602
   xudp: true
-- name: 1|🇩🇪2 |  2.9MB/s|21%|Openai
+- name: 2|🇩🇪2 |  2.9MB/s|21%|Openai
   network: ws
   port: '2082'
   server: 104.17.148.22
@@ -39,7 +46,7 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪3 |  2.1MB/s|46%|Openai
+  name: 2|🇩🇪3 |  2.1MB/s|46%|Openai
   network: ws
   port: '2096'
   server: 199.34.228.174
@@ -55,7 +62,7 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 1|🇩🇪4 |  1.2MB/s|34%|Openai
+- name: 2|🇩🇪4 |  1.2MB/s|34%|Openai
   network: ws
   port: '8080'
   server: 104.19.54.50
@@ -73,7 +80,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 1|🇩🇪5 |  5.3MB/s|45%|Openai
+  name: 2|🇩🇪5 |  5.3MB/s|45%|Openai
   network: ws
   port: '443'
   server: cloudgetservice.mcloudservice.site
@@ -91,7 +98,7 @@ proxies:
     path: /linkws
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪6 |  2.1MB/s|46%|Openai
+  name: 2|🇩🇪6 |  2.1MB/s|46%|Openai
   network: ws
   port: '443'
   server: de02.abvpn.ru
@@ -108,7 +115,7 @@ proxies:
     path: /websocket
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪7 |  1.4MB/s|46%|Openai
+  name: 2|🇩🇪7 |  1.4MB/s|46%|Openai
   network: ws
   port: '443'
   server: 104.25.140.153
@@ -125,7 +132,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪8 |  5.8MB/s|46%|Openai
+  name: 2|🇩🇪8 |  5.8MB/s|46%|Openai
   network: ws
   port: '2096'
   server: www.speedtest.net
@@ -145,7 +152,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  name: 1|🇩🇪9 |  1.1MB/s|24%|Disney|Yout...
+  name: 2|🇩🇪9 |  1.1MB/s|24%|Disney|Yout...
   network: ws
   port: '443'
   server: 104.26.13.31
@@ -163,7 +170,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪10 |  5.6MB/s|24%|Openai
+  name: 2|🇩🇪10 |  5.6MB/s|24%|Openai
   network: tcp
   port: '577'
   reality-opts:
@@ -182,7 +189,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 1|🇩🇪11 |  3.1MB/s|0%|Disney|Open...
+  name: 2|🇩🇪11 |  3.1MB/s|0%|Disney|Open...
   network: tcp
   port: '443'
   server: 204.10.194.78
@@ -193,7 +200,7 @@ proxies:
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪12 |  1.7MB/s|24%|Disney|Ope...
+  name: 2|🇩🇪12 |  1.7MB/s|24%|Disney|Ope...
   network: ws
   port: '443'
   server: 172.66.47.15
@@ -209,7 +216,7 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: fp=chrome
   xudp: true
-- name: 1|🇩🇪13 |  5.6MB/s|21%|Openai
+- name: 2|🇩🇪13 |  5.6MB/s|21%|Openai
   network: ws
   port: '2082'
   server: www.speedtest.net
@@ -224,14 +231,14 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
 - cipher: rc4-md5
-  name: 1|🇩🇪14 |  3.9MB/s|100%|Youtube|O...
+  name: 2|🇩🇪14 |  3.9MB/s|100%|Youtube|O...
   password: 14fFPrbezE3HDZzsMOr6
   port: '8080'
   server: 193.108.119.230
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪15 |  5.8MB/s|46%|Openai
+  name: 2|🇩🇪15 |  5.8MB/s|46%|Openai
   network: ws
   port: '2096'
   server: 199.34.228.48
@@ -247,7 +254,7 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 1|🇩🇪16 |  5.5MB/s|0%|Openai
+- name: 2|🇩🇪16 |  5.5MB/s|0%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -261,7 +268,7 @@ proxies:
         Gecko) Chrome/42.0.2311.135 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 1|🇩🇪17 |  5.6MB/s|21%|Openai
+- name: 2|🇩🇪17 |  5.6MB/s|21%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -275,10 +282,3 @@ proxies:
         (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: a6f9f268-06cf-4593-932a-1f44ac635dab
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

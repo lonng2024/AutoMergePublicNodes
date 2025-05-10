@@ -1,14 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 806001d3-78ba-4cf9-bea8-38538e9bf202
+  password: 73b71a3b-235c-48de-9098-f899e5998ca0
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 45442f07-4b81-4d20-a773-b10c834be5b4
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪1 |  5.6MB/s|21%|Youtube|Ope...
+  name: 2|🇩🇪1 |  5.6MB/s|21%|Youtube|Ope...
   network: tcp
   port: '443'
   reality-opts:
@@ -22,13 +29,13 @@ proxies:
   uuid: 826a1df1-a893-48c1-9891-3d9f947b5f53
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪2 |  4.4MB/s|50%|Netflix|You...
+  name: 2|🇩🇪2 |  4.4MB/s|50%|Netflix|You...
   password: PBrts5Au4GM9ar7bTNyZEu
   port: '63861'
   server: 85.208.139.69
   type: ss
   udp: true
-- name: 1|🇩🇪3 |  5.9MB/s|21%|Openai
+- name: 2|🇩🇪3 |  5.9MB/s|21%|Openai
   network: ws
   port: '2082'
   server: 104.17.147.22
@@ -42,7 +49,7 @@ proxies:
         like Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- name: 1|🇩🇪4 |  5.4MB/s|24%|Disney|Open...
+- name: 2|🇩🇪4 |  5.4MB/s|24%|Disney|Open...
   network: ws
   port: '8880'
   server: www.zula.ir
@@ -56,7 +63,7 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
   xudp: true
-- name: 1|🇩🇪5 |  1.2MB/s|0%|Openai
+- name: 2|🇩🇪5 |  1.2MB/s|0%|Openai
   network: ws
   port: '8880'
   server: www.speedtest.net
@@ -71,7 +78,7 @@ proxies:
     path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
   xudp: true
 - delay: 919
-  name: 1|🇩🇪6 |  5.0MB/s|0%|Youtube|Open...
+  name: 2|🇩🇪6 |  5.0MB/s|0%|Youtube|Open...
   network: ws
   port: 8880
   server: www.tgju.org

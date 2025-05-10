@@ -1,50 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 2|🇹🇼1 |  2.0MB/s|0%|Netflix|Disn...
+  name: 1|🇹🇼1 |  2.0MB/s|0%|Netflix|Disn...
   network: ws
   password: Aimer
   port: '443'
@@ -59,7 +17,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
-  name: 12,13|台湾|@ripaojiedian
+  name: 11,12|台湾|@ripaojiedian
   network: tcp
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 3462
@@ -68,7 +26,7 @@ proxies:
   sni: 45.32.28.232
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
+  name: 11,12|台湾2|@ripaojiedian
   network: tcp
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 443

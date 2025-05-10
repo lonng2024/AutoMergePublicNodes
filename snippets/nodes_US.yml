@@ -1,47 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇺🇸24 |  1.1MB/s|Netflix|Openai
+- name: 1|🇺🇸24 |  1.1MB/s|Netflix|Openai
   network: ws
   password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
   port: 443
@@ -55,7 +13,7 @@ proxies:
     path: /wGgR8FyAGgRCKSiyxgvJgLl
 - alterId: '0'
   cipher: auto
-  name: 2|🇺🇸37 |  3.9MB/s|0%|Openai
+  name: 1|🇺🇸37 |  3.9MB/s|0%|Openai
   network: ws
   port: '443'
   server: xc132.meiziba5566.com
@@ -70,7 +28,7 @@ proxies:
     path: /28b33c85
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇺🇸39 |  5.3MB/s|56%|Openai|Gem...
+  name: 1|🇺🇸39 |  5.3MB/s|56%|Openai|Gem...
   network: ws
   password: aTArbZ2F0E
   port: '443'
@@ -85,14 +43,14 @@ proxies:
         (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /linkvkws
 - client-fingerprint: chrome
-  name: 2|🇺🇸41 |  5.8MB/s|Openai
+  name: 1|🇺🇸41 |  5.8MB/s|Openai
   password: RlzoEILU
   port: '7815'
   server: 36.151.251.59
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 2|🇺🇸60 |  4.9MB/s|47%|Openai|Gem...
+- name: 1|🇺🇸60 |  4.9MB/s|47%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 15606cc9-sw3ts0-t1bnjq-1krtb.cu.plebai.net
@@ -101,7 +59,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -117,7 +75,7 @@ proxies:
     path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -129,7 +87,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.114.114.108
@@ -138,7 +96,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 11,12|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -155,7 +113,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国5|@ripaojiedian
+  name: 11|🇺🇸 美国5|@ripaojiedian
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
@@ -165,7 +123,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 13|美国5|@ripaojiedian
+  name: 12|美国5|@ripaojiedian
   network: tcp
   port: '46759'
   server: 120.198.71.216
@@ -173,7 +131,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|US_speednode_0041
+- name: 13|US_speednode_0041
   network: ws
   password: Aimer
   port: 443

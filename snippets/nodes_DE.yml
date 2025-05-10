@@ -1,22 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇩🇪2 |  1.5MB/s|34%|Openai
+  name: 1|🇩🇪2 |  1.5MB/s|34%|Openai
   network: tcp
   password: telegram-id-directvpn
   port: '22223'

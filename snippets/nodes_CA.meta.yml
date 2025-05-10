@@ -1,19 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇨🇦1 |  5.9MB/s|Youtube|Openai|...
+- name: 1|🇨🇦1 |  5.9MB/s|Youtube|Openai|...
   network: ws
   port: '80'
   server: 104.26.15.85
@@ -29,7 +15,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 2|🇨🇦2 |  5.7MB/s|29%|Youtube|Ope...
+  name: 1|🇨🇦2 |  5.7MB/s|29%|Youtube|Ope...
   network: ws
   port: 2083
   server: cloudgetservice.mcloudservice.site
@@ -47,7 +33,7 @@ proxies:
   - h3
   auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   delay: 769
-  name: 2|🇨🇦3 |  1.2MB/s|23%|Netflix|Dis...
+  name: 1|🇨🇦3 |  1.2MB/s|23%|Netflix|Dis...
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 40.233.80.61

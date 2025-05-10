@@ -1,37 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇬🇧1 |  1.8MB/s|46%|Openai
+  name: 1|🇬🇧1 |  1.8MB/s|46%|Openai
   network: ws
   port: '2096'
   server: 45.131.208.65
@@ -52,7 +24,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇬🇧2 |  2.5MB/s|33%|Youtube|Ope...
+  name: 1|🇬🇧2 |  2.5MB/s|33%|Youtube|Ope...
   network: tcp
   port: '2040'
   reality-opts:
@@ -69,7 +41,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇬🇧3 |  5.3MB/s|46%|Openai
+  name: 1|🇬🇧3 |  5.3MB/s|46%|Openai
   network: ws
   port: '2096'
   server: 45.8.211.26
@@ -86,7 +58,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇬🇧4 |  5.8MB/s|Openai
+  name: 1|🇬🇧4 |  5.8MB/s|Openai
   network: ws
   port: '443'
   server: 45.8.211.230
@@ -103,7 +75,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇬🇧5 |  5.6MB/s|46%|Openai
+  name: 1|🇬🇧5 |  5.6MB/s|46%|Openai
   network: ws
   port: '443'
   server: 45.131.6.160
@@ -121,7 +93,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: 2|🇬🇧6 |  3.2MB/s|62%|Youtube|Ope...
+  name: 1|🇬🇧6 |  3.2MB/s|62%|Youtube|Ope...
   obfs: ''
   obfs-password: ''
   password: nfsn666
@@ -131,7 +103,7 @@ proxies:
   sni: ld-arm.nfsn666.gq
   type: hysteria2
   up: ''
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84

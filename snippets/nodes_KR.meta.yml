@@ -1,34 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  4.7MB/s|44%|Netflix|Dis...
+  name: 1|🇰🇷1 |  4.7MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: '15098'
   server: p222.panda001.net
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇰🇷2 |  2.3MB/s|Netflix|Disney|...
+  name: 1|🇰🇷2 |  2.3MB/s|Netflix|Disney|...
   network: ws
   port: '2096'
   server: 154.83.2.54
@@ -45,27 +24,27 @@ proxies:
     path: /?ed=2560fp=randomized
   xudp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  5.8MB/s|77%|Netflix|Dis...
+  name: 1|🇰🇷3 |  5.8MB/s|77%|Netflix|Dis...
   password: qwerREWQ@@
   port: '11389'
   server: 221.150.109.89
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷4 |  6.2MB/s|77%|Netflix|Dis...
+  name: 1|🇰🇷4 |  6.2MB/s|77%|Netflix|Dis...
   password: qwerREWQ@@
   port: '11389'
   server: p231.panda004.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷5 |  6.2MB/s|Netflix|Disney|...
+  name: 1|🇰🇷5 |  6.2MB/s|Netflix|Disney|...
   password: qwerREWQ@@
   port: 4857
   server: p227.panda004.net
   type: ss
 - client-fingerprint: chrome
-  name: 2|🇰🇷6 |  2.5MB/s|0%|Netflix|Disn...
+  name: 1|🇰🇷6 |  2.5MB/s|0%|Netflix|Disn...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: kr01.sqx001.com
@@ -76,7 +55,7 @@ proxies:
   username: dmpyoary@mayorlogistic.com
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19852
   server: h.cm2.xiaomi-api.xyz
@@ -84,13 +63,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: awsps0501
   port: 443
   server: 52.197.184.25
   tfo: false
   type: ss
-- name: 14|KR_speednode_0013
+- name: 13|KR_speednode_0013
   network: ws
   port: 50000
   server: 112.164.234.135
@@ -104,7 +83,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 14|KR_speednode_0014
+- name: 13|KR_speednode_0014
   network: ws
   port: 12297
   server: 220.73.70.34
@@ -119,7 +98,7 @@ proxies:
       Host: edccj.ambercc.filegear-sg.me
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|KR_speednode_0015
+  name: 13|KR_speednode_0015
   network: ws
   port: 10187
   server: 121.189.106.45
@@ -134,7 +113,7 @@ proxies:
       Host: mot.luyuju.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|KR_speednode_0016
+  name: 13|KR_speednode_0016
   network: ws
   port: 18796
   server: 61.74.213.66

@@ -1,24 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 38d408de-2ff9-44bb-9c0b-c3928c4bd98d
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   http-opts:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪1 |  3.3MB/s|23%|Openai
+  name: 1|🇩🇪1 |  3.3MB/s|23%|Openai
   network: tcp
   port: '443'
   reality-opts:
@@ -34,7 +20,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇩🇪2 |  1.5MB/s|34%|Openai
+  name: 1|🇩🇪2 |  1.5MB/s|34%|Openai
   network: tcp
   password: telegram-id-directvpn
   port: '22223'
@@ -49,7 +35,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪3 |  2.8MB/s|0%|Disney|Opena...
+  name: 1|🇩🇪3 |  2.8MB/s|0%|Disney|Opena...
   network: tcp
   port: '443'
   server: 204.10.194.78
@@ -59,7 +45,7 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: 2|🇩🇪4 |  5.7MB/s|24%|Netflix|Dis...
+- name: 1|🇩🇪4 |  5.7MB/s|24%|Netflix|Dis...
   network: ws
   port: '8880'
   server: parspack.com
@@ -73,7 +59,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
   xudp: true
-- name: 2|🇩🇪5 |  5.3MB/s|Netflix|Disney|...
+- name: 1|🇩🇪5 |  5.3MB/s|Netflix|Disney|...
   network: ws
   port: '8880'
   server: www.zula.ir
@@ -88,7 +74,7 @@ proxies:
     path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪6 |  5.8MB/s|46%|Openai
+  name: 1|🇩🇪6 |  5.8MB/s|46%|Openai
   network: ws
   port: '8443'
   server: 104.17.147.22
@@ -106,7 +92,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇩🇪7 |  1.6MB/s|24%|Openai
+  name: 1|🇩🇪7 |  1.6MB/s|24%|Openai
   network: tcp
   port: '443'
   reality-opts:
@@ -124,7 +110,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪8 |  5.9MB/s|24%|Openai
+  name: 1|🇩🇪8 |  5.9MB/s|24%|Openai
   network: tcp
   port: '7022'
   reality-opts:

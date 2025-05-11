@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 36784873-2d74-42fe-ae3b-fa837b40adfb
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 36784873-2d74-42fe-ae3b-fa837b40adfb
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
@@ -16,7 +16,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1140
-  name: 2|🇭🇰2 |  2.7MB/s|Youtube|Openai
+  name: 1|🇭🇰2 |  2.7MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
@@ -30,7 +30,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1335
-  name: 2|🇭🇰3 |  2.1MB/s|Youtube|Openai
+  name: 1|🇭🇰3 |  2.1MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
@@ -45,7 +45,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 2719
-  name: 2|🇭🇰4 |  1.5MB/s|Youtube|Openai
+  name: 1|🇭🇰4 |  1.5MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
@@ -59,7 +59,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1320
-  name: 2|🇭🇰5 |  4.0MB/s|16%|Youtube|Ope...
+  name: 1|🇭🇰5 |  4.0MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net
@@ -71,14 +71,14 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰8 |  8.8MB/s|Disney|Gemini
+  name: 1|🇭🇰8 |  8.8MB/s|Disney|Gemini
   password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
   port: 49709
   server: jg647hf446ghvw.gym0boy.com
   type: ss
 - alterId: 2
   cipher: auto
-  name: 2|🇭🇰10 |  2.6MB/s|Youtube|Openai
+  name: 1|🇭🇰10 |  2.6MB/s|Youtube|Openai
   network: ws
   port: 80
   server: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
@@ -91,6 +91,20 @@ proxies:
     headers:
       Host: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: 0d1bc95e-b665-4b15-a8b3-31edf4bbe974
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 0d1bc95e-b665-4b15-a8b3-31edf4bbe974
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws

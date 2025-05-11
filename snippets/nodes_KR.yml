@@ -1,39 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 1b3f1c30-411d-44b8-bd58-ba9f6911e9ff
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 5b41c1a3-dc88-4f31-9a99-4f39d8eb0ef1
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🇰🇷3 |  2.3MB/s|44%|Netflix|Dis...
+  name: 2|🇰🇷3 |  5.3MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
+  port: 4857
+  server: p227.panda004.net
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇰🇷4 |  3.8MB/s|49%|Youtube|Ope...
-  network: tcp
-  port: 17232
-  server: a64e572b-sutj40-tei4of-1qxa1.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  xudp: true
 - cipher: aes-256-cfb
-  delay: 772
-  name: 1|🇰🇷5 |  1.4MB/s|44%|Netflix|Ope...
+  name: 2|🇰🇷4 |  5.3MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: 4857
   server: 125.141.26.12
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19852
   server: h.cm2.xiaomi-api.xyz
@@ -41,7 +28,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6666
   server: 3.35.231.68
@@ -49,13 +36,26 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: awsps0501
   port: 443
   server: 35.89.83.1
   tfo: false
   type: ss
-- name: 13|KR_speednode_0046
+- name: 14|KR_speednode_0045
+  network: ws
+  password: '!!str 0588'
+  port: 50000
+  server: 175.203.30.93
+  skip-cert-verify: true
+  sni: 888.uskm.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 888.uskm.dpdns.org
+    path: /?ed=2560
+- name: 14|KR_speednode_0046
   network: ws
   password: Aimer
   port: 50000

@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🌀2-SE |  1.4MB/s|Openai
+  name: 1|🌀2-SE |  1.4MB/s|Openai
   network: tcp
   password: telegram-id-directvpn
   port: '22223'

@@ -1,42 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 9dbbf4ce-9933-4a8d-8a81-d600491aed6c
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 9dbbf4ce-9933-4a8d-8a81-d600491aed6c
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 9dbbf4ce-9933-4a8d-8a81-d600491aed6c
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -44,7 +23,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇺🇸16 |  2.5MB/s|0%|Netflix|Dis...
+  name: 1|🇺🇸16 |  2.5MB/s|0%|Netflix|Dis...
   network: ws
   password: 9e7caa3b-ca9c-40ba-9ea0-f0c992359239
   port: '443'
@@ -58,7 +37,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/69.0.3497.100 Safari/537.36
     path: /duJhdsnTCbijwHNYeMcCs9
-- name: 2|🇺🇸19 |  1.3MB/s|34%|Openai
+- name: 1|🇺🇸19 |  1.3MB/s|34%|Openai
   network: ws
   password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
   port: 443
@@ -72,7 +51,7 @@ proxies:
     path: /VEP415T5mby2DulPWRIwOavJd
 - alterId: '2'
   cipher: auto
-  name: 2|🇺🇸35 |  5.4MB/s|31%|Openai
+  name: 1|🇺🇸35 |  5.4MB/s|31%|Openai
   network: ws
   port: '22641'
   server: tk.hzlt.tkddns.xyz
@@ -89,7 +68,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇺🇸42 |  5.1MB/s|67%
+  name: 1|🇺🇸42 |  5.1MB/s|67%
   network: ws
   password: 114ad614-fe6c-4422-b0af-be6161190d7a
   port: '443'
@@ -104,7 +83,7 @@ proxies:
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /By7cEmOrNRS58yeduy9AOG
 - client-fingerprint: chrome
-  name: 2|🇺🇸48 |  5.9MB/s|47%|Gemini
+  name: 1|🇺🇸48 |  5.9MB/s|47%|Gemini
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: '15229'
   server: c6b50ea5-sw5og0-t1bnjq-1krtb.cu.plebai.net
@@ -113,7 +92,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸50 |  3.6MB/s|31%|Openai
+  name: 1|🇺🇸50 |  3.6MB/s|31%|Openai
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -126,7 +105,7 @@ proxies:
     Host: zxjp-c.tkong.cc
   ws-path: /
 - cipher: chacha20-ietf
-  name: 2|🇺🇸56 |  4.3MB/s|48%|Openai|Gem...
+  name: 1|🇺🇸56 |  4.3MB/s|48%|Openai|Gem...
   obfs: plain
   obfs-param: None
   password: myssojbk
@@ -138,7 +117,7 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  name: 2|🇺🇸70 |  2.1MB/s|34%|Openai
+  name: 1|🇺🇸70 |  2.1MB/s|34%|Openai
   network: ws
   password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
   port: 443
@@ -151,6 +130,27 @@ proxies:
     headers:
       Host: 10r.iran1912.dpdns.org
     path: /VEP415T5mby2DulPWRIwOavJd
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 04f96a37-8423-4523-a7b1-35c28711bdf5
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 04f96a37-8423-4523-a7b1-35c28711bdf5
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 04f96a37-8423-4523-a7b1-35c28711bdf5
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

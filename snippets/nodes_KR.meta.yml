@@ -1,26 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 9dbbf4ce-9933-4a8d-8a81-d600491aed6c
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 9dbbf4ce-9933-4a8d-8a81-d600491aed6c
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  2.1MB/s|62%|Disney|Open...
+- name: 1|🇰🇷1 |  2.1MB/s|62%|Disney|Open...
   network: ws
   port: '80'
   server: 44.31.62.3
@@ -35,13 +28,13 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  5.8MB/s|44%|Netflix|Dis...
+  name: 1|🇰🇷2 |  5.8MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: '15098'
   server: 125.141.31.72
   type: ss
   udp: true
-- name: 2,14|US_speednode_0077
+- name: 1,14|US_speednode_0077
   network: ws
   port: 8880
   server: 135.84.76.75
@@ -57,7 +50,7 @@ proxies:
     path: /?ed=2560
   xudp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷4 |  4.9MB/s|44%|Netflix|Dis...
+  name: 1|🇰🇷4 |  4.9MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: '15098'
   server: p222.panda001.net
@@ -65,7 +58,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇰🇷5 |  5.8MB/s|49%|Youtube|Ope...
+  name: 1|🇰🇷5 |  5.8MB/s|49%|Youtube|Ope...
   network: tcp
   port: 17232
   server: a64e572b-sutj40-tei4of-1qxa1.cm5.p5pv.com
@@ -75,7 +68,7 @@ proxies:
   udp: true
   uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
   xudp: true
-- name: 2,14|KR_speednode_0048
+- name: 1,14|KR_speednode_0048
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: kr01.sqx001.com
@@ -84,6 +77,13 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 04f96a37-8423-4523-a7b1-35c28711bdf5
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian

@@ -1,21 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 8a43e8b0-67ae-4472-9930-6bfc6581e61a
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: b250a9c2-f34a-43a2-a140-4f8251c3d6c0
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 9dbbf4ce-9933-4a8d-8a81-d600491aed6c
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 2|🇨🇦1 |  5.6MB/s|29%|Youtube|Ope...
+  name: 1|🇨🇦1 |  5.6MB/s|29%|Youtube|Ope...
   network: ws
   port: 2083
   server: cloudgetservice.mcloudservice.site
@@ -29,3 +22,10 @@ proxies:
       Host: CanaDa-138.blAzecAnAdA.SITe
     path: /linkvkws
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: 04f96a37-8423-4523-a7b1-35c28711bdf5
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

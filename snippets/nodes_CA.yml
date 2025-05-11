@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 775a7bdc-1935-4bce-97e2-4f0df2302422
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|🇨🇦2 |  1.0MB/s|29%|Youtube|Ope...
@@ -30,8 +37,8 @@ proxies:
     path: /linkvkvws
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: fe9fa417-692e-403c-897b-14f4f09c7e97
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: aacb24e0-9451-4480-be2c-6cfa08c61c53
   port: 31441
   server: free.2apzhfa.xyz
   type: ss

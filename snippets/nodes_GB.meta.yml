@@ -1,32 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   http-opts:
     headers:
@@ -34,7 +6,7 @@ proxies:
       - Join_Bade_Channel@JOKERRVPN
     path:
     - /
-  name: 2|🇬🇧1 |  1.2MB/s|0%
+  name: 1|🇬🇧1 |  1.2MB/s|0%
   network: tcp
   port: '443'
   reality-opts:
@@ -48,7 +20,7 @@ proxies:
   uuid: 8db8f511-f01f-4ec7-8f88-08765acb0552
   xudp: true
 - cipher: aes-256-gcm
-  name: 2|🇬🇧2 |  1.2MB/s|39%|Netflix|Dis...
+  name: 1|🇬🇧2 |  1.2MB/s|39%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11516'
   server: cdn-p1-lm.youku-dns.com
@@ -56,7 +28,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|GB_speednode_0038
+  name: 1,14|GB_speednode_0038
   port: 8443
   reality-opts:
     public-key: ZMtlGCYlW4xf2_g1ruTqLEw1H57ggWXrb6aAbh029lo
@@ -69,7 +41,7 @@ proxies:
   udp: true
   uuid: d2a11ee4-7ede-4e7f-a001-a23e9bb44ff2
 - client-fingerprint: chrome
-  name: 2,14|LU_speednode_0051
+  name: 1,14|LU_speednode_0051
   network: ws
   port: 443
   server: 188.42.88.45
@@ -84,14 +56,14 @@ proxies:
       Host: CxNiMjJz.cAfUnEaR.InFo
     path: /
 - cipher: aes-256-gcm
-  name: 2|🇬🇧5 |  1.2MB/s|39%|Netflix|Dis...
+  name: 1|🇬🇧5 |  1.2MB/s|39%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11514'
   server: cdn-p1-lm.youku-dns.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇬🇧6 |  5.2MB/s|Youtube|Openai
+  name: 1|🇬🇧6 |  5.2MB/s|Youtube|Openai
   obfs: plain
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -104,7 +76,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   delay: 2724
-  name: 2|🇬🇧7 |  2.2MB/s|Openai
+  name: 1|🇬🇧7 |  2.2MB/s|Openai
   network: ws
   password: 2joWBLJQ1n9O
   port: 2053
@@ -121,7 +93,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧8 |  4.9MB/s|0%|Netflix|Disn...
+  name: 1|🇬🇧8 |  4.9MB/s|0%|Netflix|Disn...
   network: grpc
   port: '2030'
   reality-opts:
@@ -134,6 +106,20 @@ proxies:
   udp: true
   uuid: 3f9185b3-c35c-4b22-8675-cbd67bd03afc
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443

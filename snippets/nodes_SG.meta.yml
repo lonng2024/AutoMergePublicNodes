@@ -1,55 +1,20 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 2|🇸🇬1 |  1.2MB/s|13%|Netflix|Dis...
+  name: 1|🇸🇬1 |  1.2MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11508'
   server: cdn-p1-sg.weibo-dns.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 2|🇸🇬2 |  2.8MB/s|13%|Netflix|Dis...
+  name: 1|🇸🇬2 |  2.8MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11536'
   server: ieplqz.youku-dns.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 2|🇸🇬3 |  1.2MB/s|13%|Netflix|Dis...
+  name: 1|🇸🇬3 |  1.2MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11530'
   server: cdn-p1-sg.weibo-dns.com
@@ -57,7 +22,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬4 |  1.5MB/s|0%|Netflix|Open...
+  name: 1|🇸🇬4 |  1.5MB/s|0%|Netflix|Open...
   port: 43302
   server: 183.236.51.38
   skip-cert-verify: true
@@ -67,7 +32,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: none
-  name: 2|🇸🇬5 |  5.7MB/s|Youtube|Openai|...
+  name: 1|🇸🇬5 |  5.7MB/s|Youtube|Openai|...
   network: ws
   port: '2096'
   server: 141.193.213.21
@@ -83,6 +48,20 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: '%2F'
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

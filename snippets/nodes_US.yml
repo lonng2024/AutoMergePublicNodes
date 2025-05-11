@@ -1,47 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 2|🇺🇸15 |  3.5MB/s|56%|Openai|Gem...
+- name: 1|🇺🇸15 |  3.5MB/s|56%|Openai|Gem...
   network: ws
   password: aTArbZ2F0E
   port: 443
@@ -54,7 +12,7 @@ proxies:
 - alterId: '64'
   cipher: auto
   delay: 1267
-  name: 2|🇺🇸17 |  4.2MB/s|20%|Openai
+  name: 1|🇺🇸17 |  4.2MB/s|20%|Openai
   network: tcp
   port: 40392
   server: 120.232.153.123
@@ -64,7 +22,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
-- name: 2,14|CN_speednode_0026
+- name: 1,14|CN_speednode_0026
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 15606cc9-sw3ts0-t1bnjq-1krtb.cu.plebai.net
@@ -73,7 +31,7 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  name: 2|🇺🇸41 |  2.7MB/s|34%|Openai
+  name: 1|🇺🇸41 |  2.7MB/s|34%|Openai
   network: ws
   password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
   port: 443
@@ -86,7 +44,7 @@ proxies:
     path: /VEP415T5mby2DulPWRIwOavJd
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸132 |  1.7MB/s|31%|Openai
+  name: 1|🇺🇸132 |  1.7MB/s|31%|Openai
   network: ws
   port: 22641
   server: 52.80.27.229
@@ -101,7 +59,7 @@ proxies:
       Host: zxjp-a.tkong.cc
     path: /
 - client-fingerprint: chrome
-  name: 2|🇺🇸46 |  4.2MB/s|34%|Netflix|Op...
+  name: 1|🇺🇸46 |  4.2MB/s|34%|Netflix|Op...
   network: ws
   password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
   port: '443'
@@ -116,7 +74,7 @@ proxies:
         (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /wGgR8FyAGgRCKSiyxgvJgLl
 - client-fingerprint: chrome
-  name: 2|🇺🇸47 |  2.4MB/s|34%|Netflix|Op...
+  name: 1|🇺🇸47 |  2.4MB/s|34%|Netflix|Op...
   network: ws
   password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
   port: '443'
@@ -132,7 +90,7 @@ proxies:
     path: /wGgR8FyAGgRCKSiyxgvJgLl
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸63 |  1.1MB/s|15%|Openai
+  name: 1|🇺🇸63 |  1.1MB/s|15%|Openai
   port: 3105
   server: 87b6c700-sukw00-sw1e10-7yd9.c.volczijie.com
   tls: false
@@ -140,7 +98,7 @@ proxies:
   uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
 - alpn:
   - http/1.1
-  name: 2|🇺🇸64 |  2.2MB/s|34%|Openai
+  name: 1|🇺🇸64 |  2.2MB/s|34%|Openai
   network: ws
   password: f82fb954-06a1-4f0b-9180-17e07585b61f
   port: 443
@@ -156,7 +114,7 @@ proxies:
     path: /Yu29UN3Yz8hcnI3SlZor0
 - alpn:
   - http/1.1
-  name: 2|🇺🇸70 |  5.6MB/s|32%|Netflix|Op...
+  name: 1|🇺🇸70 |  5.6MB/s|32%|Netflix|Op...
   network: ws
   password: a926af96-2cfe-4169-8107-6c5f0d74a938
   port: 443
@@ -172,7 +130,7 @@ proxies:
     path: /5NB3RVAWa3Uo1P5zFPkui
 - alpn:
   - http/1.1
-  name: 2|🇺🇸102 |  5.7MB/s|67%|Openai
+  name: 1|🇺🇸102 |  5.7MB/s|67%|Openai
   network: ws
   password: 114ad614-fe6c-4422-b0af-be6161190d7a
   port: 443
@@ -187,7 +145,7 @@ proxies:
         Gecko) Chrome/32.0.1700.107 Safari/537.36
     path: /By7cEmOrNRS58yeduy9AOG
 - cipher: chacha20-ietf
-  name: 2|🇺🇸103 |  5.1MB/s|48%|Openai
+  name: 1|🇺🇸103 |  5.1MB/s|48%|Openai
   obfs: plain
   obfs-param: None
   password: myssojbk
@@ -197,7 +155,7 @@ proxies:
   server: 183.240.179.190
   type: ssr
   udp: true
-- name: 2|🇺🇸107 |  4.6MB/s|34%|Openai
+- name: 1|🇺🇸107 |  4.6MB/s|34%|Openai
   network: ws
   password: f82fb954-06a1-4f0b-9180-17e07585b61f
   port: 443
@@ -213,7 +171,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   delay: 1344
-  name: 2|🇺🇸111 |  2.1MB/s|Openai
+  name: 1|🇺🇸111 |  2.1MB/s|Openai
   network: ws
   password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
   port: 443
@@ -232,7 +190,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 2|🇺🇸120 |  4.6MB/s|Openai|Gemini
+  name: 1|🇺🇸120 |  4.6MB/s|Openai|Gemini
   network: ws
   port: '80'
   server: FfFgTYY.7282728.XyZ
@@ -249,7 +207,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇺🇸121 |  5.9MB/s|67%|Openai
+  name: 1|🇺🇸121 |  5.9MB/s|67%|Openai
   network: ws
   password: 114ad614-fe6c-4422-b0af-be6161190d7a
   port: '443'
@@ -265,7 +223,7 @@ proxies:
     path: /By7cEmOrNRS58yeduy9AOG
 - alterId: '0'
   cipher: auto
-  name: 2|🇺🇸123 |  5.8MB/s
+  name: 1|🇺🇸123 |  5.8MB/s
   network: ws
   port: '2096'
   server: 141.101.120.253
@@ -283,7 +241,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 2|🇺🇸130 |  6.0MB/s|32%|Youtube|O...
+  name: 1|🇺🇸130 |  6.0MB/s|32%|Youtube|O...
   network: ws
   port: '80'
   server: 172.67.170.51
@@ -299,7 +257,7 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸131 |  1.4MB/s|31%|Openai
+  name: 1|🇺🇸131 |  1.4MB/s|31%|Openai
   network: ws
   port: 22641
   server: 52.80.232.93
@@ -312,6 +270,27 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

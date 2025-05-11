@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇨🇭1 |  5.1MB/s|Youtube|Openai
+- name: 1|🇨🇭1 |  5.1MB/s|Youtube|Openai
   network: ws
   port: '2053'
   server: 37.156.44.42

@@ -1,19 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 2|🇩🇪1 |  3.1MB/s|46%|Disney|Open...
+- name: 1|🇩🇪1 |  3.1MB/s|46%|Disney|Open...
   network: ws
   port: '80'
   server: 23.134.82.1
@@ -28,7 +14,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪2 |  3.9MB/s|Openai
+  name: 1|🇩🇪2 |  3.9MB/s|Openai
   network: ws
   port: '8443'
   server: 104.17.147.22
@@ -44,7 +30,7 @@ proxies:
         Gecko) Chrome/42.0.2311.135 Safari/537.36
     path: /
   xudp: true
-- name: 2|🇩🇪3 |  1.7MB/s|24%|Disney|Open...
+- name: 1|🇩🇪3 |  1.7MB/s|24%|Disney|Open...
   network: ws
   port: '8880'
   server: parspack.com
@@ -58,7 +44,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
   xudp: true
-- name: 2,14|RU_speednode_0057
+- name: 1,14|RU_speednode_0057
   network: ws
   port: 80
   server: 185.174.138.206
@@ -72,7 +58,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 2,14|US_speednode_0106
+- name: 1,14|US_speednode_0106
   network: ws
   port: 80
   server: 66.81.247.95
@@ -86,7 +72,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 2,14|NL_speednode_0053
+- name: 1,14|NL_speednode_0053
   network: ws
   port: 443
   server: 5.10.245.75
@@ -100,7 +86,7 @@ proxies:
     headers:
       Host: hax-eu.lzj520hxw.dpdns.org
     path: /lzjjjjj
-- name: 2|🇩🇪7 |  2.8MB/s|34%|Openai
+- name: 1|🇩🇪7 |  2.8MB/s|34%|Openai
   network: ws
   port: '8080'
   server: 104.19.54.50
@@ -114,7 +100,7 @@ proxies:
         Chrome/70.0.3538.67 Safari/537.36
     path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
   xudp: true
-- name: 2|🇩🇪8 |  2.6MB/s|21%|Openai
+- name: 1|🇩🇪8 |  2.6MB/s|21%|Openai
   network: ws
   port: '80'
   server: 104.21.56.44
@@ -129,7 +115,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
   xudp: true
-- name: 2|🇩🇪9 |  1.3MB/s|Openai
+- name: 1|🇩🇪9 |  1.3MB/s|Openai
   network: ws
   port: 80
   server: 45.120.178.115
@@ -149,7 +135,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪10 |  4.0MB/s|23%|Openai
+  name: 1|🇩🇪10 |  4.0MB/s|23%|Openai
   network: tcp
   port: 443
   reality-opts:
@@ -163,7 +149,7 @@ proxies:
   uuid: 33707040-edcf-4185-94e4-2a071315c602
   xudp: true
 - delay: 560
-  name: 2|🇩🇪11 |  4.6MB/s|24%|Netflix|Di...
+  name: 1|🇩🇪11 |  4.6MB/s|24%|Netflix|Di...
   network: ws
   port: 8880
   server: www.zula.ir
@@ -180,7 +166,7 @@ proxies:
 - alpn:
   - h2http/1.1
   client-fingerprint: chrome
-  name: 2|🇩🇪12 |  5.7MB/s|25%|Openai
+  name: 1|🇩🇪12 |  5.7MB/s|25%|Openai
   network: ws
   port: '2087'
   server: 162.159.152.2
@@ -198,7 +184,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇩🇪13 |  5.6MB/s|24%|Openai
+  name: 1|🇩🇪13 |  5.6MB/s|24%|Openai
   network: tcp
   port: '443'
   reality-opts:
@@ -218,7 +204,7 @@ proxies:
       - /Join_Bade_Channel@JOKERRVPN
     path:
     - /
-  name: 2|🇩🇪14 |  1.1MB/s|64%|Openai
+  name: 1|🇩🇪14 |  1.1MB/s|64%|Openai
   network: tcp
   port: '7865'
   reality-opts:
@@ -237,7 +223,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪15 |  5.5MB/s|21%|Youtube|Op...
+  name: 1|🇩🇪15 |  5.5MB/s|21%|Youtube|Op...
   network: tcp
   port: '443'
   reality-opts:
@@ -251,7 +237,7 @@ proxies:
   uuid: 826a1df1-a893-48c1-9891-3d9f947b5f53
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪16 |  1.4MB/s|34%|Youtube|Op...
+  name: 1|🇩🇪16 |  1.4MB/s|34%|Youtube|Op...
   network: ws
   port: '22224'
   server: 18.199.43.148
@@ -267,6 +253,13 @@ proxies:
         Gecko) Chrome/36.0.1985.143 Safari/537.36
     path: /telegram-channel-vlessconfig
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 14|DE_speednode_0028
   network: ws
   port: 80

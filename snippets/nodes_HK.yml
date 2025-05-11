@@ -1,34 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 471163e6-d2da-4c39-9295-fada6c6f4ea5
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: eeb86c72-d8ff-4d4d-a8ce-606d930b6f35
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 2|🇭🇰2 |  1.0MB/s|0%|Netflix|Disn...
+  name: 1|🇭🇰2 |  1.0MB/s|0%|Netflix|Disn...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11532'
   server: cdn-p1-hk.weibo-dns.com
@@ -37,7 +9,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 2719
-  name: 2|🇭🇰3 |  2.5MB/s|16%|Youtube|Ope...
+  name: 1|🇭🇰3 |  2.5MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
@@ -51,7 +23,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1447
-  name: 2|🇭🇰4 |  1.9MB/s|16%|Youtube|Ope...
+  name: 1|🇭🇰4 |  1.9MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
@@ -65,7 +37,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1600
-  name: 2|🇭🇰5 |  2.6MB/s|16%|Youtube|Ope...
+  name: 1|🇭🇰5 |  2.6MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
@@ -79,7 +51,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1335
-  name: 2|🇭🇰6 |  3.2MB/s|16%|Youtube|Ope...
+  name: 1|🇭🇰6 |  3.2MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
@@ -94,7 +66,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1320
-  name: 2|🇭🇰7 |  1.2MB/s|16%|Youtube|Ope...
+  name: 1|🇭🇰7 |  1.2MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net
@@ -108,7 +80,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1140
-  name: 2|🇭🇰8 |  3.4MB/s|16%|Netflix|Ope...
+  name: 1|🇭🇰8 |  3.4MB/s|16%|Netflix|Ope...
   network: ws
   port: 8080
   server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
@@ -122,7 +94,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1377
-  name: 2|🇭🇰9 |  2.4MB/s|16%|Netflix|You...
+  name: 1|🇭🇰9 |  2.4MB/s|16%|Netflix|You...
   network: ws
   port: 8080
   server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
@@ -133,6 +105,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 94ce83a4-fe95-4b43-ae7a-005cd1449c5d
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws

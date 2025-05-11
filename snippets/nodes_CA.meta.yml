@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36441
-  server: free.2weradf.xyz
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alpn:
   - h3
   down: ''
   fingerprint: ''
-  name: 1|🇨🇦1 |  1.1MB/s|23%|Netflix|Dis...
+  name: 2|🇨🇦1 |  1.1MB/s|23%|Netflix|Dis...
   obfs: ''
   obfs-password: ''
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
@@ -26,7 +26,7 @@ proxies:
   delay: 2385
   h2-opts: {}
   http-opts: {}
-  name: 1|🇨🇦2 |  2.6MB/s|29%|Youtube|Ope...
+  name: 2|🇨🇦2 |  2.6MB/s|29%|Youtube|Ope...
   network: ws
   port: 2083
   server: 172.66.168.209
@@ -40,7 +40,7 @@ proxies:
       HOST: CanaDa-138.blAzecAnAdA.SITe
     path: /linkvkws
 - client-fingerprint: chrome
-  name: 1|🇨🇦3 |  2.2MB/s|64%|Netflix|Dis...
+  name: 2|🇨🇦3 |  2.2MB/s|64%|Netflix|Dis...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: toronto1.sqx001.com
@@ -49,10 +49,3 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

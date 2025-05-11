@@ -1,19 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36143
-  server: free.2weradf.xyz
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36145
-  server: free.2weradf.xyz
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇭🇰1 |  1.5MB/s|0%|Disney|Opena...
+- name: 2|🇭🇰1 |  1.5MB/s|0%|Disney|Opena...
   network: ws
   port: '80'
   server: 104.17.147.22
@@ -30,7 +30,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1140
-  name: 1|🇭🇰2 |  2.7MB/s|Youtube|Openai
+  name: 2|🇭🇰2 |  2.7MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
@@ -44,7 +44,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1335
-  name: 1|🇭🇰3 |  2.1MB/s|Youtube|Openai
+  name: 2|🇭🇰3 |  2.1MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
@@ -59,7 +59,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 2719
-  name: 1|🇭🇰4 |  1.5MB/s|Youtube|Openai
+  name: 2|🇭🇰4 |  1.5MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
@@ -73,7 +73,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1320
-  name: 1|🇭🇰5 |  4.0MB/s|16%|Youtube|Ope...
+  name: 2|🇭🇰5 |  4.0MB/s|16%|Youtube|Ope...
   network: ws
   port: 8080
   server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net
@@ -86,7 +86,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|HK_speednode_0039
+  name: 2,14|HK_speednode_0039
   port: 20550
   reality-opts:
     public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
@@ -98,7 +98,7 @@ proxies:
   udp: true
   uuid: 2d317da5-47c5-4db4-933f-16d1094668db
 - client-fingerprint: chrome
-  name: 1|🇭🇰7 |  1.4MB/s|6%|Youtube
+  name: 2|🇭🇰7 |  1.4MB/s|6%|Youtube
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: hk05.sqx001.com
@@ -108,13 +108,13 @@ proxies:
   udp: true
   username: dmpyoary@mayorlogistic.com
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰8 |  8.8MB/s|Disney|Gemini
+  name: 2|🇭🇰8 |  8.8MB/s|Disney|Gemini
   password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
   port: 49709
   server: jg647hf446ghvw.gym0boy.com
   type: ss
 - client-fingerprint: chrome
-  name: 1|🇭🇰9 |  2.0MB/s|6%|Youtube
+  name: 2|🇭🇰9 |  2.0MB/s|6%|Youtube
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 8443
   server: hk02.sqx001.com
@@ -125,7 +125,7 @@ proxies:
   username: dmpyoary@mayorlogistic.com
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰10 |  2.6MB/s|Youtube|Openai
+  name: 2|🇭🇰10 |  2.6MB/s|Youtube|Openai
   network: ws
   port: 80
   server: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
@@ -138,20 +138,6 @@ proxies:
     headers:
       Host: 7b2f8c5e-sv2sg0-tc61cs-1tja8.hk.p5pv.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws

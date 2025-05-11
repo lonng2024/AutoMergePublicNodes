@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36471
-  server: free.2weradf.xyz
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,14|RU_speednode_0057
+- name: 2,14|RU_speednode_0057
   network: ws
   port: 80
   server: 185.174.138.206
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 1,14|AU_speednode_0003
+- name: 2,14|AU_speednode_0003
   network: ws
   port: 80
   server: 103.169.142.95
@@ -34,7 +34,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 1,14|NL_speednode_0053
+- name: 2,14|NL_speednode_0053
   network: ws
   port: 443
   server: 5.10.245.75
@@ -54,7 +54,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 1|🇩🇪4 |  5.7MB/s|21%|Youtube|Ope...
+  name: 2|🇩🇪4 |  5.7MB/s|21%|Youtube|Ope...
   network: tcp
   port: '443'
   reality-opts:
@@ -67,7 +67,7 @@ proxies:
   udp: true
   uuid: 826a1df1-a893-48c1-9891-3d9f947b5f53
   xudp: true
-- name: 1|🇩🇪5 |  1.9MB/s|24%|Netflix|Dis...
+- name: 2|🇩🇪5 |  1.9MB/s|24%|Netflix|Dis...
   network: ws
   port: '8880'
   server: 104.21.69.44
@@ -81,7 +81,7 @@ proxies:
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
   xudp: true
-- name: 1|🇩🇪6 |  1.0MB/s|24%|Netflix|Dis...
+- name: 2|🇩🇪6 |  1.0MB/s|24%|Netflix|Dis...
   network: ws
   port: '8880'
   server: 172.67.24.121
@@ -95,7 +95,7 @@ proxies:
         like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
   xudp: true
-- name: 1|🇩🇪7 |  6.1MB/s|24%|Netflix|Ope...
+- name: 2|🇩🇪7 |  6.1MB/s|24%|Netflix|Ope...
   network: ws
   port: '8880'
   server: 104.22.32.78
@@ -109,7 +109,7 @@ proxies:
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
   xudp: true
-- name: 1|🇩🇪8 |  4.2MB/s|21%|Disney|Open...
+- name: 2|🇩🇪8 |  4.2MB/s|21%|Disney|Open...
   network: ws
   port: '8880'
   server: 103.245.228.0
@@ -123,7 +123,7 @@ proxies:
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
-- name: 1|🇩🇪9 |  2.0MB/s|24%|Netflix|Dis...
+- name: 2|🇩🇪9 |  2.0MB/s|24%|Netflix|Dis...
   network: ws
   port: '80'
   server: 95.217.151.107
@@ -138,7 +138,7 @@ proxies:
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪10 |  1.2MB/s|34%|Youtube|Op...
+  name: 2|🇩🇪10 |  1.2MB/s|34%|Youtube|Op...
   password: telegram-id-privatevpns
   port: '22222'
   server: 18.199.43.148
@@ -147,7 +147,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 637
-  name: 1|🇩🇪11 |  1.9MB/s|24%|Netflix|Di...
+  name: 2|🇩🇪11 |  1.9MB/s|24%|Netflix|Di...
   network: ws
   port: 8880
   server: 172.67.204.84
@@ -166,7 +166,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 1|🇩🇪12 |  5.8MB/s|21%|Openai
+  name: 2|🇩🇪12 |  5.8MB/s|21%|Openai
   network: ws
   port: '8443'
   server: www.zula.ir
@@ -187,7 +187,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 1|🇩🇪13 |  5.8MB/s|24%|Openai
+  name: 2|🇩🇪13 |  5.8MB/s|24%|Openai
   network: tcp
   port: '7022'
   reality-opts:
@@ -200,7 +200,7 @@ proxies:
   udp: true
   uuid: ce462cc3-9983-45da-b030-728fb7b5684e
   xudp: true
-- name: 1|🇩🇪14 |  5.4MB/s|34%|Disney|Ope...
+- name: 2|🇩🇪14 |  5.4MB/s|34%|Disney|Ope...
   network: ws
   port: '80'
   server: 104.21.56.44
@@ -214,7 +214,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /ShadowProxy66?ed=2560
   xudp: true
-- name: 1|🇩🇪15 |  5.7MB/s|21%|Openai
+- name: 2|🇩🇪15 |  5.7MB/s|21%|Openai
   network: ws
   port: '2082'
   server: 104.17.147.22
@@ -231,7 +231,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: 8899vless
-  name: 1|🇩🇪16 |  2.3MB/s|64%|Netflix|Yo...
+  name: 2|🇩🇪16 |  2.3MB/s|64%|Netflix|Yo...
   network: grpc
   port: '8899'
   reality-opts:
@@ -244,7 +244,7 @@ proxies:
   udp: true
   uuid: 8968addd-997f-4ecc-aaa1-99329ca3fb53
   xudp: true
-- name: 1|🇩🇪17 |  5.8MB/s|21%|Openai
+- name: 2|🇩🇪17 |  5.8MB/s|21%|Openai
   network: ws
   port: '2082'
   server: 104.17.148.22
@@ -258,7 +258,7 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- name: 1|🇩🇪18 |  5.7MB/s|21%|Youtube|Op...
+- name: 2|🇩🇪18 |  5.7MB/s|21%|Youtube|Op...
   network: ws
   port: '14569'
   server: 91.107.182.145
@@ -272,7 +272,7 @@ proxies:
         Gecko) Chrome/26.0.1410.64 Safari/537.31
     path: /www.fastvpn.com.live.skornorth.com.zula.ir?ed=2048/?JOKERRVPN/Join_Bade_Channel@JOKERRVPN
   xudp: true
-- name: 1|🇩🇪19 |  1.1MB/s|21%|Openai
+- name: 2|🇩🇪19 |  1.1MB/s|21%|Openai
   network: ws
   port: '2010'
   server: 78.39.47.216
@@ -286,13 +286,6 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 14|DE_speednode_0028
   network: ws
   port: 80

@@ -4,7 +4,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 1|🌀6-SE |  5.4MB/s|20%|Openai
+  name: 2|🌀6-SE |  5.4MB/s|20%|Openai
   network: ws
   password: aeituqOkfYhy
   port: '2053'

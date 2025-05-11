@@ -1,26 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36111
-  server: free.2weradf.xyz
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36113
-  server: free.2weradf.xyz
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31113
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
-  port: 36115
-  server: free.2weradf.xyz
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 3c698c9b-161a-4589-b62e-ee061e98950f
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,14|US_speednode_0107
+- name: 2,14|US_speednode_0107
   network: ws
   port: 80
   server: 45.159.217.86
@@ -34,7 +34,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 1,14|JP_speednode_0044
+- name: 2,14|JP_speednode_0044
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: tky03.sqx001.com
@@ -43,7 +43,7 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- name: 1,14|KR_speednode_0047
+- name: 2,14|KR_speednode_0047
   network: ws
   port: 11223
   server: 218.38.33.77
@@ -62,7 +62,7 @@ proxies:
   delay: 1856
   h2-opts: {}
   http-opts: {}
-  name: 1|🇯🇵4 |  5.6MB/s|10%|Disney|Yout...
+  name: 2|🇯🇵4 |  5.6MB/s|10%|Disney|Yout...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
@@ -70,7 +70,7 @@ proxies:
   type: vmess
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - client-fingerprint: chrome
-  name: 1|🇯🇵5 |  2.4MB/s|0%|Netflix|Disn...
+  name: 2|🇯🇵5 |  2.4MB/s|0%|Netflix|Disn...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: tky02.sqx001.com
@@ -80,7 +80,7 @@ proxies:
   udp: true
   username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 1|🇯🇵6 |  1.8MB/s|0%|Disney|Youtu...
+  name: 2|🇯🇵6 |  1.8MB/s|0%|Disney|Youtu...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: tky01.sqx001.com
@@ -90,33 +90,12 @@ proxies:
   udp: true
   username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 1|🇯🇵7 |  5.8MB/s|34%|Youtube|Ope...
+  name: 2|🇯🇵7 |  5.8MB/s|34%|Youtube|Ope...
   password: p0gcYaXnnqIyx6ajxFRClBeaeeCTOY8AY3ONCD9FyDapS33xAEacEwDxFjXp0a4ZgRSR3
   port: '443'
   server: 43.206.220.255
   skip-cert-verify: true
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 01 | 1x JP
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 02 | 1x JP
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 03 | 1x JP
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome

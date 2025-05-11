@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🌀3-CN |  1.6MB/s|0%|Netflix
+  name: 2|🌀3-CN |  1.6MB/s|0%|Netflix
   port: 41554
   server: 183.236.51.38
   skip-cert-verify: false

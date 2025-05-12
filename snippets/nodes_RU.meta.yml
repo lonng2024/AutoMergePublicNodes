@@ -1,13 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 6a67fa12-c62b-44cf-8a9c-60ddf2434ae4
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - auth: dongtaiwang.com
-  name: 2|🇷🇺1 |  3.0MB/s|0%
+  name: 1|🇷🇺1 |  2.1MB/s|0%
   password: dongtaiwang.com
   port: 10011
   server: 46.29.163.171
@@ -15,7 +8,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - auth: dongtaiwang.com
-  name: 2|🇷🇺2 |  3.6MB/s|50%|Youtube
+  name: 1|🇷🇺2 |  1.6MB/s|50%|Youtube
   password: dongtaiwang.com
   port: 10011
   server: 46.17.41.217
@@ -23,27 +16,31 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - fast-open: true
-  name: 2|🇷🇺3 |  2.8MB/s|0%
+  name: 1|🇷🇺3 |  1.5MB/s|0%
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 14|RU_speednode_0032
-  network: ws
-  port: 80
-  server: 185.174.138.206
-  servername: ipsycho.suex12.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 1|🇷🇺4 |  1.8MB/s|50%
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: ff6119b4-ed52-44ed-862b-03980279eac3
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /re5IzbZ9IZZMddtw?ed=2560
 - client-fingerprint: random
   name: 14|RU_speednode_0033
   network: ws

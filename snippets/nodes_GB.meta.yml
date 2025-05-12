@@ -1,35 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 6a67fa12-c62b-44cf-8a9c-60ddf2434ae4
-  port: 31271
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: ff6119b4-ed52-44ed-862b-03980279eac3
+  port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧1 |  4.8MB/s|0%|Netflix|Disn...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
-  server: 74.220.23.227
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3f9185b3-c35c-4b22-8675-cbd67bd03afc
-  xudp: true
-- auth: nfsn666
-  name: 2|🇬🇧2 |  2.0MB/s|61%|Youtube|Ope...
-  password: nfsn666
-  port: 8888
-  server: ld-arm.nfsn666.gq
-  skip-cert-verify: true
-  sni: ld-arm.nfsn666.gq
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: ff6119b4-ed52-44ed-862b-03980279eac3
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih

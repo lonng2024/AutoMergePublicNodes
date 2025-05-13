@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: a82c0b69-202a-4044-87d5-8ab02b095a66
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: e6c8f5c6-065b-4e0c-bba6-b3c7897994bf
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: a82c0b69-202a-4044-87d5-8ab02b095a66
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: e6c8f5c6-065b-4e0c-bba6-b3c7897994bf
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: a82c0b69-202a-4044-87d5-8ab02b095a66
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: e6c8f5c6-065b-4e0c-bba6-b3c7897994bf
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alpn:
@@ -38,7 +38,7 @@ proxies:
 - delay: 1124
   down: ''
   fingerprint: ''
-  name: '1,9|عضو+کانال+بشید+👈+VPNTV20@ #5'
+  name: '1,10|عضو+کانال+بشید+👈+VPNTV20@ #5'
   obfs: ''
   obfs-password: ''
   password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
@@ -64,7 +64,7 @@ proxies:
     path: /?ed=2560
 - auth: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   delay: 1157
-  name: '1,9|عضو+کانال+بشید+👈+VPNTV20@ #3'
+  name: '1,10|عضو+کانال+بشید+👈+VPNTV20@ #3'
   password: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   port: 443
   server: 108.181.23.241
@@ -97,7 +97,7 @@ proxies:
   server: 95c5aeb9-sw04g0-swy6li-tni2.sv.plebai.net
   tls: true
   type: socks5
-- name: 1,13|US_speednode_0191
+- name: 1,14|US_speednode_0191
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: 75e33360-sw9ds0-t1bnjq-1krtb.los.gotochinatown.net
@@ -128,7 +128,7 @@ proxies:
   type: socks5
 - down: ''
   fingerprint: ''
-  name: '1,9|عضو+کانال+بشید+👈+VPNTV20@ #2'
+  name: '1,10|عضو+کانال+بشید+👈+VPNTV20@ #2'
   obfs: ''
   obfs-password: ''
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
@@ -476,7 +476,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: '1,9|عضو+کانال+بشید+👈+VPNTV20@ #7'
+  name: '1,10|عضو+کانال+بشید+👈+VPNTV20@ #7'
   obfs: ''
   obfs-password: ''
   password: nfsn666
@@ -1403,7 +1403,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -1419,7 +1419,7 @@ proxies:
     path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1432,7 +1432,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -1449,7 +1449,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国5|@ripaojiedian
+  name: 12|🇺🇸 美国5|@ripaojiedian
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
@@ -1459,7 +1459,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|美国5|@ripaojiedian
+  name: 13|美国5|@ripaojiedian
   network: tcp
   port: '46759'
   server: 120.198.71.216
@@ -1467,7 +1467,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|US_speednode_0173
+- name: 14|US_speednode_0173
   network: ws
   port: 80
   server: 23.134.82.2
@@ -1481,7 +1481,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|US_speednode_0177
+- name: 14|US_speednode_0177
   network: ws
   port: 80
   server: 135.84.65.11
@@ -1495,7 +1495,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|US_speednode_0178
+- name: 14|US_speednode_0178
   network: ws
   port: 80
   server: 135.84.65.11
@@ -1509,7 +1509,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 13|US_speednode_0180
+- name: 14|US_speednode_0180
   network: ws
   port: 80
   server: 34.160.118.77
@@ -1523,7 +1523,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2
-- name: 13|US_speednode_0181
+- name: 14|US_speednode_0181
   network: ws
   port: 80
   server: 34.160.118.77
@@ -1537,7 +1537,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 13|US_speednode_0182
+- name: 14|US_speednode_0182
   network: ws
   port: 80
   server: 135.84.65.11
@@ -1551,7 +1551,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2
-- name: 13|US_speednode_0183
+- name: 14|US_speednode_0183
   network: ws
   port: 80
   server: 45.159.217.86
@@ -1565,7 +1565,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw
-- name: 13|US_speednode_0184
+- name: 14|US_speednode_0184
   network: ws
   port: 80
   server: 23.134.82.1
@@ -1579,7 +1579,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2
-- name: 13|US_speednode_0185
+- name: 14|US_speednode_0185
   network: ws
   port: 80
   server: 23.134.82.2
@@ -1593,7 +1593,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2
-- name: 13|US_speednode_0186
+- name: 14|US_speednode_0186
   network: ws
   port: 80
   server: 23.134.82.2
@@ -1612,7 +1612,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 13|US_speednode_0187
+  name: 14|US_speednode_0187
   network: ws
   port: 58017
   server: 147.182.246.69
@@ -1626,7 +1626,7 @@ proxies:
     headers:
       Host: madcity2.777999.lol
     path: /?ed=2560
-- name: 13|US_speednode_0188
+- name: 14|US_speednode_0188
   network: ws
   port: 80
   server: 34.160.118.77
@@ -1641,7 +1641,7 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳
 - client-fingerprint: random
-  name: 13|US_speednode_0189
+  name: 14|US_speednode_0189
   network: ws
   port: 443
   server: 160.79.104.113
@@ -1655,7 +1655,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 13|US_speednode_0190
+- name: 14|US_speednode_0190
   network: ws
   port: 443
   server: 160.79.104.113
@@ -1670,7 +1670,7 @@ proxies:
       Host: 0229.patterdeng.pp.ua
     path: /
 - flow: none
-  name: 13|US_speednode_0192
+  name: 14|US_speednode_0192
   network: ws
   port: 8080
   server: support.zoom.us
@@ -1684,7 +1684,7 @@ proxies:
     headers:
       Host: xrr.rtxconfigz.xyz
     path: /
-- name: 13|US_speednode_0193
+- name: 14|US_speednode_0193
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: ef1fe606-sw9ds0-t1bnjq-1krtb.sj.gotochinatown.net
@@ -1692,24 +1692,3 @@ proxies:
   type: http
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 99b22901-87c4-4fbc-99b8-6957323558e5
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 99b22901-87c4-4fbc-99b8-6957323558e5
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 99b22901-87c4-4fbc-99b8-6957323558e5
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

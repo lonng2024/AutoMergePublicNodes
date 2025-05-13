@@ -186,7 +186,7 @@ proxies:
   type: hysteria
   udp: true
   up: 11
-- name: 13|FR_speednode_0157
+- name: 14|FR_speednode_0157
   network: ws
   port: 80
   server: 46.8.224.211

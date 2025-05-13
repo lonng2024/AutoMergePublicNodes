@@ -1,44 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 29c5c235-6f4d-43d0-a636-13ae4cc2a454
+  password: ef53fc60-6e64-42cd-9094-ccfb34063655
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 29c5c235-6f4d-43d0-a636-13ae4cc2a454
+  password: ef53fc60-6e64-42cd-9094-ccfb34063655
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1,14|CN_speednode_0074
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: true
-  sni: cgsg2.hysality.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 8771b82e-74dc-4eb3-9f36-8f9964f38bf5
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 68e58261-dda4-43b0-ab3f-fe972eedc543
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 8771b82e-74dc-4eb3-9f36-8f9964f38bf5
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 68e58261-dda4-43b0-ab3f-fe972eedc543
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 8771b82e-74dc-4eb3-9f36-8f9964f38bf5
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 68e58261-dda4-43b0-ab3f-fe972eedc543
   port: 31175
   server: free.2apzhfa.xyz
   type: ss

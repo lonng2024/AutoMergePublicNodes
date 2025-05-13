@@ -1,64 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 29c5c235-6f4d-43d0-a636-13ae4cc2a454
+  password: ef53fc60-6e64-42cd-9094-ccfb34063655
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 29c5c235-6f4d-43d0-a636-13ae4cc2a454
+  password: ef53fc60-6e64-42cd-9094-ccfb34063655
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1,14|CN_speednode_0074
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: true
-  sni: cgsg2.hysality.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: none
-  name: 1,14|US_speednode_0192
-  network: ws
-  port: 8080
-  server: support.zoom.us
-  servername: xrr.rtxconfigz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 8771b82e-74dc-4eb3-9f36-8f9964f38bf5
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 68e58261-dda4-43b0-ab3f-fe972eedc543
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 8771b82e-74dc-4eb3-9f36-8f9964f38bf5
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 68e58261-dda4-43b0-ab3f-fe972eedc543
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 8771b82e-74dc-4eb3-9f36-8f9964f38bf5
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 68e58261-dda4-43b0-ab3f-fe972eedc543
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇸🇬1 |  5.3MB/s|Youtube|Openai
+  network: ws
+  port: '80'
+  server: 170.114.45.6
+  type: vless
+  udp: true
+  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

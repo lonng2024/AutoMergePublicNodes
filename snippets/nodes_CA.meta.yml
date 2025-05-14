@@ -1,28 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 71150764-77dc-483c-b23d-ee83a29b2060
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  client-fingerprint: chrome
-  name: 1|🇨🇦1 |  1.1MB/s|20%|Netflix|Dis...
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 40.233.80.61
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 05a1b4f5-b20a-47a5-b36c-ada5ff8fbc6c
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: feaa7d96-ff36-492b-892a-8d9beaa96622
   port: 31441
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: c87e46ad-2302-4a20-8d1e-246d4d3a5419
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 14|CA_speednode_0009

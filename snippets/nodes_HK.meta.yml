@@ -1,53 +1,61 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 1|🇭🇰1 |  2.1MB/s|15%|Youtube|Ope...
-  network: ws
-  port: 80
-  server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 14227331-10e0-49e6-8740-a366a048129f
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
-    path: /
-  xudp: true
-- name: 1|🇭🇰2 |  6.2MB/s|0%|Netflix|Disn...
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 183.232.235.2
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 14227331-10e0-49e6-8740-a366a048129f
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 77ed880f-bccb-4956-8cd5-7585acb3ba14
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 77ed880f-bccb-4956-8cd5-7585acb3ba14
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2,14|HK_speednode_0036
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
   skip-cert-verify: true
+  sni: skwygx.top
   type: trojan
   udp: true
-- name: 1|🇭🇰3 |  6.2MB/s|0%|Netflix|Disn...
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
+- name: 2|🇭🇰2 |  4.5MB/s|0%|Netflix|Disn...
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: dozo01.flztjc.top
   skip-cert-verify: false
   sni: hk-13-568.flztjc.net
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 1|🇭🇰4 |  5.5MB/s|15%|Netflix|Dis...
-  network: ws
-  port: '8080'
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 2|🇭🇰3 |  2.8MB/s|0%|Netflix|Disn...
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: 183.232.235.2
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-    path: /
-  xudp: true
 - cipher: aes-256-gcm
-  name: 1|🇭🇰5 |  6.1MB/s|100%|Netflix|Yo...
+  name: 2|🇭🇰4 |  3.6MB/s|100%|Disney
   password: V98N1K9OBXGHKC3X
   port: '15005'
   server: 183.2.157.135
@@ -55,7 +63,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰6 |  1.5MB/s|Netflix|Youtube
+  name: 2|🇭🇰5 |  1.6MB/s|15%|Netflix|You...
   network: ws
   port: 80
   server: b8236f8e-svwf40-t4m86v-1s9pj.hk.p5pv.com
@@ -67,61 +75,39 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- auth: nfsn666
-  name: 1|🇭🇰7 |  1.6MB/s|0%|Netflix|Disn...
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
-  type: hysteria2
-- delay: 498
-  name: 1|🇭🇰8 |  1.5MB/s|0%|Youtube
-  password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11
-  port: 28505
-  server: green.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green.cdntencentmusic.com
-  type: trojan
 - cipher: chacha20-ietf
-  delay: 763
-  name: 1|🇭🇰9 |  2.4MB/s|16%|Disney
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: sGWdzYDx5J
-  port: 43125
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: csilicovolcanoconiosis.godeove.xyz
-  type: ssr
-  udp: true
-- cipher: aes-256-gcm
-  delay: 244
-  name: 1|🇭🇰10 |  3.3MB/s|21%|Netflix|Di...
-  password: 93f122df-87be-4554-b6cd-4f55da7f619a
-  port: 39102
-  server: 183.236.51.26
+  name: 2|🇭🇰6 |  1.1MB/s|0%|Netflix|Disn...
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
   type: ss
-  udp: true
-- alterId: '0'
+- cipher: aes-256-gcm
+  country: 🇨🇳CN
+  delay: 175
+  name: 2|🇭🇰7 |  2.4MB/s|100%|Netflix
+  password: QZ4L8ZDG75OFMFRU
+  port: 15012
+  server: 183.2.157.135
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 1|🇭🇰11 |  5.2MB/s|15%|Netflix|Di...
+  name: 2|🇭🇰8 |  1.6MB/s|15%|Netflix|You...
   network: ws
-  port: 8080
-  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
-  skip-cert-verify: false
+  port: 80
+  server: 0ee7018b-sv2sg0-tbicd9-1go3q.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
+  uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
   ws-opts:
-    headers: {}
+    headers:
+      Host: 0ee7018b-sv2sg0-tbicd9-1go3q.hk.p5pv.com
     path: /
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   port: 56152
   server: 120.232.153.40
   skip-cert-verify: false
@@ -131,7 +117,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -148,7 +134,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 35921
   server: 120.198.71.216
   skip-cert-verify: false
@@ -159,7 +145,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
+  name: 12|🇭🇰 香港4|@ripaojiedian
   port: 43302
   server: 183.236.51.38
   skip-cert-verify: false
@@ -170,7 +156,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港5|@ripaojiedian
+  name: 12,13|香港5|@ripaojiedian
   network: ws
   port: '22642'
   server: 52.80.232.93
@@ -187,7 +173,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
+  name: 12|🇭🇰 香港6|@ripaojiedian
   port: 36609
   server: 120.232.153.40
   skip-cert-verify: false
@@ -197,7 +183,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|香港|@ripaojiedian
+  name: 13|香港|@ripaojiedian
   network: tcp
   port: '56152'
   server: 120.232.153.40
@@ -207,7 +193,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -217,7 +203,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港4|@ripaojiedian
+  name: 13|香港4|@ripaojiedian
   network: tcp
   port: '43302'
   server: 183.236.51.38
@@ -227,7 +213,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港6|@ripaojiedian
+  name: 13|香港6|@ripaojiedian
   network: tcp
   port: '36609'
   server: 120.232.153.40
@@ -235,17 +221,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: 4dc7385a-e8e7-4b94-a27a-5a6c4af54777
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4dc7385a-e8e7-4b94-a27a-5a6c4af54777
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

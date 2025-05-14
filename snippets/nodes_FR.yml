@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 0|🇫🇷5 |  1.7MB/s|30%|Openai
+  name: 2|🇫🇷5 |  1.7MB/s|30%|Openai
   network: tcp
   password: telegram-id-privatevpns
   port: '22222'
@@ -11,7 +11,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 13|FR_speednode_0021
+- name: 14|FR_speednode_0021
   password: '!!str 74260665780162200'
   port: 443
   server: grown-doberman.shiner427.skin

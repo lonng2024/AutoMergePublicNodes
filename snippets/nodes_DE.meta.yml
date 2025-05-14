@@ -1,19 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: ec1a58ab-f3eb-4aca-99fa-62c3cc8559a1
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 2,14|DE_speednode_0019
+- name: 1,13|DE_speednode_0019
   password: '!!str 74260665780162200'
   port: 443
   server: cuddly-finch.shiner427.skin
@@ -24,7 +10,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇩🇪3 |  2.0MB/s|30%|Youtube|Ope...
+  name: 1|🇩🇪3 |  2.0MB/s|30%|Youtube|Ope...
   network: tcp
   password: telegram-id-directvpn
   port: '22223'
@@ -36,7 +22,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇩🇪4 |  5.5MB/s|30%|Youtube|Ope...
+  name: 1|🇩🇪4 |  5.5MB/s|30%|Youtube|Ope...
   network: tcp
   password: telegram-id-privatevpns
   port: '22222'
@@ -48,7 +34,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 2|🇩🇪5 |  3.8MB/s|30%|Openai
+  name: 1|🇩🇪5 |  3.8MB/s|30%|Openai
   network: tcp
   password: telegram-id-privatevpns
   port: '22222'
@@ -58,7 +44,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪6 |  5.5MB/s|44%|Openai
+  name: 1|🇩🇪6 |  5.5MB/s|44%|Openai
   network: ws
   port: '8443'
   server: 205.233.181.186
@@ -75,7 +61,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪7 |  5.6MB/s|25%|Netflix|Dis...
+  name: 1|🇩🇪7 |  5.6MB/s|25%|Netflix|Dis...
   network: ws
   port: '35097'
   server: 94.159.100.135
@@ -96,7 +82,7 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: yZ1aB2cC3dD4eE5f6gH7iJ8kL9mNOoP
-  name: 2|🇩🇪8 |  4.3MB/s|31%|Youtube|Ope...
+  name: 1|🇩🇪8 |  4.3MB/s|31%|Youtube|Ope...
   network: grpc
   port: '443'
   reality-opts:
@@ -112,7 +98,7 @@ proxies:
 - alpn:
   - h3h2
   client-fingerprint: chrome
-  name: 2|🇩🇪9 |  3.0MB/s|22%|Openai
+  name: 1|🇩🇪9 |  3.0MB/s|22%|Openai
   network: ws
   port: '8443'
   server: www.speedtest.net
@@ -129,7 +115,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪10 |  5.8MB/s|44%|Openai
+  name: 1|🇩🇪10 |  5.8MB/s|44%|Openai
   network: ws
   port: '8443'
   server: 104.17.147.22
@@ -146,7 +132,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪11 |  5.6MB/s|22%|Openai
+  name: 1|🇩🇪11 |  5.6MB/s|22%|Openai
   network: tcp
   port: '7022'
   reality-opts:
@@ -159,7 +145,7 @@ proxies:
   udp: true
   uuid: ce462cc3-9983-45da-b030-728fb7b5684e
   xudp: true
-- name: 2|🇩🇪12 |  5.7MB/s|20%|Openai
+- name: 1|🇩🇪12 |  5.7MB/s|20%|Openai
   network: ws
   port: '2082'
   server: www.speedtest.net
@@ -174,7 +160,7 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪13 |  1.6MB/s|30%|Youtube|Op...
+  name: 1|🇩🇪13 |  1.6MB/s|30%|Youtube|Op...
   password: '!!str 74260665780162200'
   port: '443'
   server: 18.156.46.68
@@ -183,7 +169,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪14 |  3.6MB/s|30%|Youtube|Op...
+  name: 1|🇩🇪14 |  3.6MB/s|30%|Youtube|Op...
   password: '!!str 74260665780162200'
   port: '443'
   server: 3.121.11.241
@@ -191,7 +177,7 @@ proxies:
   sni: cuddly-finch.shiner427.skin
   type: trojan
   udp: true
-- name: 14|DE_speednode_0018
+- name: 13|DE_speednode_0018
   password: '!!str 74260665780162200'
   port: 443
   server: ultimate-lemming.shiner427.skin
@@ -200,7 +186,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 14|DE_speednode_0020
+  name: 13|DE_speednode_0020
   port: 5541
   reality-opts:
     public-key: Q4FlYQIDbIQT_xPDDwcbOU6RAqHdgdwyntwrkNdTu0c
@@ -212,3 +198,10 @@ proxies:
   type: vless
   udp: true
   uuid: b4892a82-b76b-4aa2-bbff-461e838336f0
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 4dc7385a-e8e7-4b94-a27a-5a6c4af54777
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

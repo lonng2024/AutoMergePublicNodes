@@ -1,20 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: ec1a58ab-f3eb-4aca-99fa-62c3cc8559a1
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - delay: 2286
-  name: 2|🇨🇦1 |  3.5MB/s|0%|Youtube|Open...
+  name: 1|🇨🇦1 |  3.5MB/s|0%|Youtube|Open...
   password: '!!str 74260665780162200'
   port: 443
   server: allowing-owl.shiner427.skin
@@ -26,7 +12,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇨🇦2 |  4.6MB/s|20%|Netflix|Dis...
+  name: 1|🇨🇦2 |  4.6MB/s|20%|Netflix|Dis...
   network: tcp
   port: '26113'
   reality-opts:
@@ -42,7 +28,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1887
   flow: xtls-rprx-vision
-  name: 2|🇨🇦3 |  5.5MB/s|2%|Netflix|Disn...
+  name: 1|🇨🇦3 |  5.5MB/s|2%|Netflix|Disn...
   network: tcp
   port: 56565
   reality-opts:
@@ -55,7 +41,7 @@ proxies:
   tls: true
   type: vless
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-- name: 14|CA_speednode_0009
+- name: 13|CA_speednode_0009
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -68,3 +54,10 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=140.238.158.238:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 4dc7385a-e8e7-4b94-a27a-5a6c4af54777
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

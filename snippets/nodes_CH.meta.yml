@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 920
   flow: xtls-rprx-vision
-  name: 2|🇨🇭1 |  2.2MB/s|0%|Openai
+  name: 0|🇨🇭1 |  2.2MB/s|0%|Openai
   network: tcp
   port: 444
   reality-opts:
@@ -15,7 +15,7 @@ proxies:
   tls: true
   type: vless
   uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
-- name: 14|CH_speednode_0010
+- name: 13|CH_speednode_0010
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443

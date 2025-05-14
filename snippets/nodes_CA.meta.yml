@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 14227331-10e0-49e6-8740-a366a048129f
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 77ed880f-bccb-4956-8cd5-7585acb3ba14
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇨🇦1 |  2.3MB/s|Youtube|Openai|...
+  name: 0|🇨🇦1 |  2.3MB/s|Youtube|Openai|...
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -27,14 +13,21 @@ proxies:
     headers:
       host: baidu.com
     path: /oooo
-- name: 2|🇨🇦2 |  3.8MB/s|0%|Openai
+- name: 0|🇨🇦2 |  3.8MB/s|0%|Openai
   password: '!!str 74260665780162200'
   port: 443
   server: allowing-owl.shiner427.skin
   skip-cert-verify: true
   sni: allowing-owl.shiner427.skin
   type: trojan
-- name: 14|CA_speednode_0009
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 2e7ba2d0-e27a-40e2-a0ec-51b0de43018c
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 13|CA_speednode_0009
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -47,3 +40,10 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=140.238.158.238:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 17123bb6-fe99-4685-ae30-71edb8400a81
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

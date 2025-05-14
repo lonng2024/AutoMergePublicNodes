@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 14227331-10e0-49e6-8740-a366a048129f
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: 77ed880f-bccb-4956-8cd5-7585acb3ba14
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - down: ''
   fingerprint: ''
-  name: 2|🇷🇺1 |  5.2MB/s|50%
+  name: 0|🇷🇺1 |  5.2MB/s|50%
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -28,7 +14,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 2|🇷🇺2 |  4.9MB/s|50%
+  name: 0|🇷🇺2 |  4.9MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -41,7 +27,7 @@ proxies:
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
 - down: ''
   fingerprint: ''
-  name: 2|🇷🇺3 |  1.7MB/s|0%
+  name: 0|🇷🇺3 |  1.7MB/s|0%
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -51,7 +37,14 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- name: 14|RU_speednode_0043
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: 2e7ba2d0-e27a-40e2-a0ec-51b0de43018c
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 13|RU_speednode_0043
   network: ws
   port: 80
   server: 45.8.211.61
@@ -65,7 +58,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 14|RU_speednode_0044
+- name: 13|RU_speednode_0044
   network: ws
   port: 80
   server: 185.174.138.206
@@ -79,7 +72,7 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 14|RU_speednode_0045
+- name: 13|RU_speednode_0045
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -92,7 +85,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.153:443&proxyIP=null
-- name: 14|RU_speednode_0046
+- name: 13|RU_speednode_0046
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -105,7 +98,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.234:443&proxyIP=null
-- name: 14|RU_speednode_0047
+- name: 13|RU_speednode_0047
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -118,3 +111,10 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.5:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: 17123bb6-fe99-4685-ae30-71edb8400a81
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

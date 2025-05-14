@@ -1,20 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 14227331-10e0-49e6-8740-a366a048129f
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 77ed880f-bccb-4956-8cd5-7585acb3ba14
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪1 |  2.9MB/s|25%|Netflix|Dis...
+  name: 0|🇩🇪1 |  2.9MB/s|25%|Netflix|Dis...
   network: ws
   port: '35097'
   server: 94.159.100.135
@@ -31,7 +17,7 @@ proxies:
     path: /rangws
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪2 |  3.1MB/s|44%|Openai
+  name: 0|🇩🇪2 |  3.1MB/s|44%|Openai
   network: ws
   port: '8443'
   server: 104.17.147.22
@@ -47,7 +33,7 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /
   xudp: true
-- name: 2,14|DE_speednode_0018
+- name: 0,13|DE_speednode_0018
   password: '!!str 74260665780162200'
   port: 443
   server: ultimate-lemming.shiner427.skin
@@ -55,7 +41,7 @@ proxies:
   sni: ultimate-lemming.shiner427.skin
   type: trojan
   udp: true
-- name: 2|🇩🇪4 |  4.0MB/s|31%|Openai
+- name: 0|🇩🇪4 |  4.0MB/s|31%|Openai
   network: ws
   port: '8080'
   server: 104.19.54.50
@@ -72,7 +58,7 @@ proxies:
 - alpn:
   - h3h2
   client-fingerprint: chrome
-  name: 2|🇩🇪5 |  4.0MB/s|39%|Openai
+  name: 0|🇩🇪5 |  4.0MB/s|39%|Openai
   network: ws
   port: '8443'
   server: www.speedtest.net
@@ -89,7 +75,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪6 |  1.3MB/s|30%|Openai
+  name: 0|🇩🇪6 |  1.3MB/s|30%|Openai
   network: ws
   port: '22224'
   server: 63.176.33.105
@@ -105,7 +91,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /telegram-channel-vlessconfig
   xudp: true
-- name: 2|🇩🇪7 |  2.7MB/s|0%|Openai
+- name: 0|🇩🇪7 |  2.7MB/s|0%|Openai
   network: ws
   port: '80'
   server: 104.17.147.22
@@ -119,7 +105,14 @@ proxies:
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 14|DE_speednode_0019
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 2e7ba2d0-e27a-40e2-a0ec-51b0de43018c
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 13|DE_speednode_0019
   password: '!!str 74260665780162200'
   port: 443
   server: cuddly-finch.shiner427.skin
@@ -128,7 +121,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 14|DE_speednode_0020
+  name: 13|DE_speednode_0020
   port: 5541
   reality-opts:
     public-key: Q4FlYQIDbIQT_xPDDwcbOU6RAqHdgdwyntwrkNdTu0c
@@ -140,3 +133,10 @@ proxies:
   type: vless
   udp: true
   uuid: b4892a82-b76b-4aa2-bbff-461e838336f0
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 17123bb6-fe99-4685-ae30-71edb8400a81
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

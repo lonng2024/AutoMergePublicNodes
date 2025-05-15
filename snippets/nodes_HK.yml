@@ -1,21 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: dfb34322-c103-4184-80ed-e27f4a98bdee
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 401abd03-3149-4fe7-94ba-b23b3fa8ae5b
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 401abd03-3149-4fe7-94ba-b23b3fa8ae5b
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 008884f4-e782-4bd9-b11f-217efe3e31b1
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: dfb34322-c103-4184-80ed-e27f4a98bdee
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 008884f4-e782-4bd9-b11f-217efe3e31b1
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  2.7MB/s|Youtube|Openai
+  name: 2|🇭🇰1 |  2.7MB/s|Youtube|Openai
   network: ws
   port: 8080
   server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
@@ -28,7 +42,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰2 |  1.0MB/s|15%|Openai
+  name: 2|🇭🇰2 |  1.0MB/s|15%|Openai
   network: ws
   port: 8080
   server: e4d173ea-swd340-sykxcb-1nhp7.hgc1.tcpbbr.net
@@ -43,7 +57,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰3 |  4.6MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰3 |  4.6MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
@@ -58,7 +72,7 @@ proxies:
       Host: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
     path: /
 - client-fingerprint: chrome
-  name: 11,12|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: tcp
   password: ac1ba86a-eafd-4457-b8ec-3551bbc54ca9
   port: 12221
@@ -68,7 +82,7 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -85,7 +99,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 35921
   server: 120.198.71.216
   skip-cert-verify: false
@@ -96,7 +110,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
+  name: 12|🇭🇰 香港4|@ripaojiedian
   port: 43302
   server: 183.236.51.38
   skip-cert-verify: false
@@ -107,7 +121,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港5|@ripaojiedian
+  name: 12,13|香港5|@ripaojiedian
   network: ws
   port: '22642'
   server: 52.80.232.93
@@ -123,14 +137,14 @@ proxies:
     path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
+  name: 12|🇭🇰 香港6|@ripaojiedian
   password: asd123456
   port: 8388
   server: 103.149.183.61
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 11,12|香港7|@ripaojiedian
+  name: 12,13|香港7|@ripaojiedian
   network: tcp
   password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11
   port: 28505
@@ -140,7 +154,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -150,7 +164,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港4|@ripaojiedian
+  name: 13|香港4|@ripaojiedian
   network: tcp
   port: '43302'
   server: 183.236.51.38
@@ -158,17 +172,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: 9c254d65-f7f3-4da3-b4f8-a2576e9dbbd9
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 9c254d65-f7f3-4da3-b4f8-a2576e9dbbd9
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

@@ -1,16 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 679262fa-f14f-4ec3-9b25-86d60fc1e894
+  password: da4a11e0-9d93-4d14-b9f6-dc12984f332b
   port: 36471
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 43082eb8-434a-41d7-a6c6-20f2aed98671
-  port: 31471
-  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -18,7 +11,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪1 |  4.1MB/s|22%|Openai
+  name: 1|🇩🇪1 |  4.1MB/s|22%|Openai
   network: tcp
   port: '7022'
   reality-opts:
@@ -34,7 +27,7 @@ proxies:
 - alpn:
   - h3h2
   client-fingerprint: chrome
-  name: 2|🇩🇪2 |  5.6MB/s|Openai
+  name: 1|🇩🇪2 |  5.6MB/s|Openai
   network: ws
   port: '443'
   server: www.speedtest.net
@@ -54,7 +47,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  name: 2|🇩🇪3 |  1.3MB/s|Netflix|Disney|...
+  name: 1|🇩🇪3 |  1.3MB/s|Netflix|Disney|...
   network: ws
   port: '443'
   server: 172.66.44.68
@@ -71,7 +64,7 @@ proxies:
     path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪4 |  3.4MB/s|20%|Netflix|Dis...
+  name: 1|🇩🇪4 |  3.4MB/s|20%|Netflix|Dis...
   network: ws
   password: bpb-trojan
   port: 443
@@ -84,24 +77,10 @@ proxies:
     headers:
       Host: skwygx.top
     path: /tr?ed=2560
-- name: 14|DE_speednode_0129
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.176.33.105
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 096b3999-949a-4de9-a168-a7c6c534b44c
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- name: 14|DE_speednode_0130
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 8443
-  server: 130.61.51.100
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=130.61.51.100:8443&proxyIP=null

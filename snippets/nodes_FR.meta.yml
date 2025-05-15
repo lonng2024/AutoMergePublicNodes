@@ -5,7 +5,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1608
   down: 100
-  name: 2|🇫🇷1 |  1.1MB/s|15%|Openai
+  name: 1|🇫🇷1 |  1.1MB/s|15%|Openai
   port: 14241
   protocol: udp
   server: 51.159.226.1
@@ -16,7 +16,7 @@ proxies:
   up: 100
 - down: ''
   fingerprint: ''
-  name: 2|🇫🇷2 |  2.7MB/s|15%|Openai
+  name: 1|🇫🇷2 |  2.7MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -26,7 +26,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- name: 2|🇫🇷3 |  5.3MB/s|50%|Openai
+- name: 1|🇫🇷3 |  5.3MB/s|50%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -41,7 +41,7 @@ proxies:
     path: /@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet?ed=2048
   xudp: true
 - delay: 1594
-  name: 2|🇫🇷4 |  3.0MB/s|50%|Openai
+  name: 1|🇫🇷4 |  3.0MB/s|50%|Openai
   network: ws
   port: 80
   server: 104.17.148.22

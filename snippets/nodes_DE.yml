@@ -1,5 +1,32 @@
 proxies:
-- name: 0,13|DE_speednode_0018
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 36cc0980-cac4-4ea6-8593-88b44c33db9e
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1,14|BG_speednode_0005
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: bg.madison.eu.org
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 9d456349-c9bf-453a-97df-4c6639bab638
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 14|DE_speednode_0018
   password: '!!str 74260665780162200'
   port: 443
   server: ultimate-lemming.shiner427.skin
@@ -7,25 +34,11 @@ proxies:
   sni: ultimate-lemming.shiner427.skin
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 2e7ba2d0-e27a-40e2-a0ec-51b0de43018c
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 13|DE_speednode_0019
+- name: 14|DE_speednode_0019
   password: '!!str 74260665780162200'
   port: 443
   server: cuddly-finch.shiner427.skin
   skip-cert-verify: false
   sni: cuddly-finch.shiner427.skin
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 17123bb6-fe99-4685-ae30-71edb8400a81
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
   udp: true

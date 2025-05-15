@@ -1,19 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 162097a2-d38e-485a-880e-1225b0fab0a6
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 679262fa-f14f-4ec3-9b25-86d60fc1e894
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 679262fa-f14f-4ec3-9b25-86d60fc1e894
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 43082eb8-434a-41d7-a6c6-20f2aed98671
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 162097a2-d38e-485a-880e-1225b0fab0a6
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 43082eb8-434a-41d7-a6c6-20f2aed98671
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇭🇰1 |  2.5MB/s|0%|Netflix
+- name: 2|🇭🇰1 |  2.5MB/s|0%|Netflix
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: dozo01.flztjc.top
@@ -22,7 +36,7 @@ proxies:
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: 1|🇭🇰2 |  4.0MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰2 |  4.0MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
@@ -37,7 +51,7 @@ proxies:
   xudp: true
 - auth: nfsn666
   client-fingerprint: chrome
-  name: 1|🇭🇰3 |  1.9MB/s|0%|Netflix|Disn...
+  name: 2|🇭🇰3 |  1.9MB/s|0%|Netflix|Disn...
   password: nfsn666
   port: 8888
   server: hk.nfsn666.gq
@@ -45,7 +59,7 @@ proxies:
   sni: hk.nfsn666.gq
   type: hysteria2
 - client-fingerprint: chrome
-  name: 1,12,13|香港|@ripaojiedian
+  name: 2,12,13|香港|@ripaojiedian
   network: tcp
   password: ac1ba86a-eafd-4457-b8ec-3551bbc54ca9
   port: 12221
@@ -55,7 +69,7 @@ proxies:
   type: trojan
 - auth: 4ab4694d-72df-4438-b087-66a0892b7904
   delay: 1543
-  name: 1|🇭🇰5 |  2.9MB/s|25%|Netflix|Dis...
+  name: 2|🇭🇰5 |  2.9MB/s|25%|Netflix|Dis...
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 4ab4694d-72df-4438-b087-66a0892b7904
@@ -64,20 +78,6 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 06f2c322-1622-42b6-bbdc-dd7fcab0b09a
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 06f2c322-1622-42b6-bbdc-dd7fcab0b09a
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome

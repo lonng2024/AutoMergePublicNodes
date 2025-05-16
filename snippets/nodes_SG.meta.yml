@@ -1,7 +1,42 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 240051b0-ccf2-401d-a48b-194ae0ec919c
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 240051b0-ccf2-401d-a48b-194ae0ec919c
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 240051b0-ccf2-401d-a48b-194ae0ec919c
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: dc622cb1-c806-471b-9211-682e3267d84f
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: dc622cb1-c806-471b-9211-682e3267d84f
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - auth: ethj7UIa34
   client-fingerprint: chrome
-  name: 0|🇸🇬1 |  4.2MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  4.2MB/s|0%|Netflix|Disn...
   password: ethj7UIa34
   port: 35993
   server: uba.aelen.ggff.net
@@ -10,7 +45,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: none
-  name: 0,14|US_speednode_0126
+  name: 2,14|US_speednode_0126
   network: ws
   port: 8080
   server: support.zoom.us
@@ -24,51 +59,6 @@ proxies:
     headers:
       Host: xrr.rtxconfigz.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 5660b273-73fa-474b-af4e-099fc60b4f37
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 5660b273-73fa-474b-af4e-099fc60b4f37
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 5660b273-73fa-474b-af4e-099fc60b4f37
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇸🇬 @v2meowcf
-  password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
-  port: 443
-  server: 146.19.100.138
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 11|新加坡
-  password: a914681a-8dda-4c98-8468-c313f5539b14
-  port: 2056
-  server: sg3.eyucdn.xyz
-  skip-cert-verify: true
-  sni: sg3.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
-  password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
-  port: 443
-  server: 103.195.189.54
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 3880e3e6-a3fb-4d75-bbec-a48194438b5d
+  password: 54501ea2-d878-4736-ad3f-416476f0021e
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 3880e3e6-a3fb-4d75-bbec-a48194438b5d
+  password: 54501ea2-d878-4736-ad3f-416476f0021e
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 3880e3e6-a3fb-4d75-bbec-a48194438b5d
+  password: 54501ea2-d878-4736-ad3f-416476f0021e
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -23,7 +23,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇹🇼2 |  1.2MB/s|6%|Netflix|Disn...
+  name: 2|🇹🇼2 |  1.2MB/s|6%|Netflix|Disn...
   port: 20016
   server: i.needss.top
   tls: false

@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 8a430e6e-17ee-4445-9150-cde1a9454d15
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 7fd32e1a-3ec1-4404-926f-69d60af6af83
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 8a430e6e-17ee-4445-9150-cde1a9454d15
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 7fd32e1a-3ec1-4404-926f-69d60af6af83
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 13|GB_speednode_0050
@@ -131,16 +131,16 @@ proxies:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: 71f7dd1d-e040-4d62-abde-7540e347adf3
-  port: 36141
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: c44b47b5-972c-4462-b0cd-c3ea87cf201e
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 71f7dd1d-e040-4d62-abde-7540e347adf3
-  port: 36271
-  server: free.2weradf.xyz
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: c44b47b5-972c-4462-b0cd-c3ea87cf201e
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 8a430e6e-17ee-4445-9150-cde1a9454d15
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 7fd32e1a-3ec1-4404-926f-69d60af6af83
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 1,13|HK_speednode_0060
@@ -142,9 +142,9 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 71f7dd1d-e040-4d62-abde-7540e347adf3
-  port: 36471
-  server: free.2weradf.xyz
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: c44b47b5-972c-4462-b0cd-c3ea87cf201e
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

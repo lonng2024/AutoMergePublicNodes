@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: chessgame
@@ -41,12 +48,11 @@ proxies:
     headers: {}
     path:
     - /
-  name: 1,13|DE_speednode_0036
+  name: 1|🇩🇪3 |  4.6MB/s|0%|Disney|Opena...
   network: tcp
   port: 443
   server: 204.10.194.78
   servername: yfnl1.xn--4gq62f52gppi29k.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -171,23 +177,10 @@ proxies:
   udp: true
   uuid: 9bf09a16-c5f1-4c9f-889d-25b9889df1b0
   xudp: true
-- name: 13|DE_speednode_0037
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 8443
-  server: 130.61.51.100
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=130.61.51.100:8443&proxyIP=null
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: baf56649-048f-400b-b053-7ab5f610e734
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 55a68981-bee5-4d9c-bade-e1462dbe0342
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true

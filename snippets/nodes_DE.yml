@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|🇩🇪9 |  5.5MB/s|22%|Youtube|Ope...
@@ -31,23 +38,10 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-- name: 13|DE_speednode_0037
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 8443
-  server: 130.61.51.100
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=130.61.51.100:8443&proxyIP=null
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: baf56649-048f-400b-b053-7ab5f610e734
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 55a68981-bee5-4d9c-bade-e1462dbe0342
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true

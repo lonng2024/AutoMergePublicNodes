@@ -1,36 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 240051b0-ccf2-401d-a48b-194ae0ec919c
+  password: b4cd5417-b0f3-4fb5-b97a-a20a231d7275
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 240051b0-ccf2-401d-a48b-194ae0ec919c
+  password: b4cd5417-b0f3-4fb5-b97a-a20a231d7275
   port: 31271
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: dc622cb1-c806-471b-9211-682e3267d84f
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: dc622cb1-c806-471b-9211-682e3267d84f
-  port: 36271
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: '@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY'
-  name: 2|🇬🇧1 |  2.4MB/s|33%|Openai
+  name: 1|🇬🇧1 |  2.4MB/s|33%|Openai
   network: grpc
   port: '2083'
   reality-opts:
@@ -46,7 +32,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧2 |  2.2MB/s|0%|Netflix|Disn...
+  name: 1|🇬🇧2 |  2.2MB/s|0%|Netflix|Disn...
   network: grpc
   port: '2030'
   reality-opts:
@@ -59,6 +45,20 @@ proxies:
   udp: true
   uuid: e66070a9-049f-42ce-9e14-9752141c3be4
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: e1bfeee8-789e-4589-9db9-363919713f06
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: e1bfeee8-789e-4589-9db9-363919713f06
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alpn:
   - h3
   name: 10|🇬🇧@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام

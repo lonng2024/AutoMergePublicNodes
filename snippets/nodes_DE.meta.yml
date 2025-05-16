@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 8c5eeec3-a570-4842-b25e-b7f2d598fe31
+  password: 0e7f73e9-71f6-44fa-8c69-3c6615e21056
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -211,8 +211,8 @@ proxies:
       Host: de.uzilol.cn
     path: /rangws
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 83fbc0b3-43ad-4ea0-8e09-38ed3210527a
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: e39554be-d428-4651-8f3a-6d7de1ead9ad
   port: 31471
   server: free.2apzhfa.xyz
   type: ss

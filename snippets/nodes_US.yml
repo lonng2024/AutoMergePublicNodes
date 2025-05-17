@@ -1,53 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 0c18adb6-e19a-476b-8d2e-ed748c1589c4
+  password: f90bb91c-8c68-400d-8ae9-ab2115866dcf
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 0c18adb6-e19a-476b-8d2e-ed748c1589c4
+  password: f90bb91c-8c68-400d-8ae9-ab2115866dcf
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 0c18adb6-e19a-476b-8d2e-ed748c1589c4
+  password: f90bb91c-8c68-400d-8ae9-ab2115866dcf
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: aa16cf56-be2b-493a-9dbc-68db19bb29d6
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: aa16cf56-be2b-493a-9dbc-68db19bb29d6
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: aa16cf56-be2b-493a-9dbc-68db19bb29d6
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 2|🇺🇸94 |  4.7MB/s|59%|Openai|Gem...
+  name: 1|🇺🇸94 |  4.7MB/s|59%|Openai|Gem...
   password: RlzoEILU
   port: 55860
   server: 36.151.251.59
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 2c1b688b-a1d3-411b-b556-454bef733fb4
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 2c1b688b-a1d3-411b-b556-454bef733fb4
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 2c1b688b-a1d3-411b-b556-454bef733fb4
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

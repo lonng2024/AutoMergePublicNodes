@@ -1,27 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 097c780d-0ffa-4656-bc17-11e710764c8f
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: ec351650-4500-4b93-81ed-fc3de28ded97
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 097c780d-0ffa-4656-bc17-11e710764c8f
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: ec351650-4500-4b93-81ed-fc3de28ded97
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - auth: nfsn666
   client-fingerprint: chrome
-  name: 2|🇬🇧1 |  2.2MB/s|61%|Disney|Yout...
+  name: 1|🇬🇧1 |  3.1MB/s|61%|Youtube|Ope...
   password: nfsn666
   port: 8888
   server: ld-arm.nfsn666.gq
   skip-cert-verify: true
   sni: ld-arm.nfsn666.gq
   type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 391fc366-4d0e-41ad-b602-67b9ba1b001f
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 391fc366-4d0e-41ad-b602-67b9ba1b001f
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - alpn:
   - h3

@@ -6,9 +6,21 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: '2'
+  cipher: auto
+  name: 1|🇨🇦1 |  4.2MB/s|Youtube|Openai|...
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: 196028a6-d248-47d0-b218-cc73a5ecf17f
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 741a98d3-bb97-4db2-b392-3260da98cf8d
   port: 36441
   server: free.2weradf.xyz
   type: ss

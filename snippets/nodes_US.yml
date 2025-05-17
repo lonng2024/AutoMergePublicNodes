@@ -1,33 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: ec351650-4500-4b93-81ed-fc3de28ded97
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: c718902e-d341-4fe4-9fa8-143514b1b1e0
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: ec351650-4500-4b93-81ed-fc3de28ded97
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: c718902e-d341-4fe4-9fa8-143514b1b1e0
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: ec351650-4500-4b93-81ed-fc3de28ded97
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: c718902e-d341-4fe4-9fa8-143514b1b1e0
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 1|🇺🇸8 |  4.7MB/s|Openai
+  name: 2|🇺🇸8 |  4.7MB/s|Openai
   password: RlzoEILU
   port: 7815
   server: 36.151.251.59
   skip-cert-verify: true
   type: trojan
-- name: 1|🇺🇸54 |  1.9MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸54 |  1.9MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
@@ -37,7 +37,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 1|🇺🇸84 |  4.8MB/s|50%
+  name: 2|🇺🇸84 |  4.8MB/s|50%
   network: ws
   password: 70776bb4-d791-4cbd-9c9b-c76e937f9e60
   port: 443
@@ -53,7 +53,7 @@ proxies:
     path: /71M8Ov1I5Gk9247fHC0XGZG6
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸136 |  4.0MB/s|51%|Openai|Ge...
+  name: 2|🇺🇸136 |  4.0MB/s|51%|Openai|Ge...
   network: ws
   port: 2082
   server: 172.67.214.33
@@ -65,27 +65,6 @@ proxies:
     headers:
       Host: cs.flha.ru
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 391fc366-4d0e-41ad-b602-67b9ba1b001f
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 391fc366-4d0e-41ad-b602-67b9ba1b001f
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 391fc366-4d0e-41ad-b602-67b9ba1b001f
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,13 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 403be68d-5613-41ad-9674-df0d7b639e62
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪1 |  4.3MB/s|Openai
+  name: 0|🇩🇪1 |  4.3MB/s|Openai
   network: ws
   port: 8443
   server: 205.233.181.186
@@ -20,7 +13,7 @@ proxies:
     headers:
       Host: CiR346yL3b.DeRaKhT.iNfO
     path: /
-- name: 1|🇩🇪2 |  4.5MB/s|31%|Openai
+- name: 0|🇩🇪2 |  4.5MB/s|31%|Openai
   network: ws
   port: '8080'
   server: 104.19.54.50
@@ -34,7 +27,7 @@ proxies:
         Chrome/70.0.3538.77 Safari/537.36
     path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
   xudp: true
-- name: 1|🇩🇪3 |  1.2MB/s|22%|Disney|Open...
+- name: 0|🇩🇪3 |  1.2MB/s|22%|Disney|Open...
   network: ws
   port: '80'
   server: 45.85.119.88
@@ -48,7 +41,7 @@ proxies:
         Gecko) Chrome/41.0.2272.118 Safari/537.36
     path: 'Telegram: @vpnAndroid2/?ed=2560'
   xudp: true
-- name: 1|🇩🇪4 |  2.3MB/s|20%|Openai
+- name: 0|🇩🇪4 |  2.3MB/s|20%|Openai
   network: ws
   port: '2082'
   server: www.speedtest.net
@@ -62,7 +55,7 @@ proxies:
         like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- name: 1|🇩🇪5 |  4.0MB/s|20%|Disney
+- name: 0|🇩🇪5 |  4.0MB/s|20%|Disney
   network: ws
   port: '80'
   server: 45.12.30.76
@@ -80,7 +73,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: none
-  name: 1|🇩🇪6 |  4.3MB/s|0%|Openai
+  name: 0|🇩🇪6 |  4.3MB/s|0%|Openai
   network: ws
   port: '443'
   server: de.vmess.comnpmjs.com
@@ -95,7 +88,7 @@ proxies:
       Host: de.vmess.comnpmjs.com
     path: /vmess
   xudp: true
-- name: 1|🇩🇪7 |  4.6MB/s|22%|Disney|Open...
+- name: 0|🇩🇪7 |  4.6MB/s|22%|Disney|Open...
   network: ws
   port: '80'
   server: 45.12.30.240
@@ -110,7 +103,7 @@ proxies:
     path: 'Telegram: @vpnAndroid2/?ed=2560'
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪8 |  3.8MB/s|39%|Openai
+  name: 0|🇩🇪8 |  3.8MB/s|39%|Openai
   network: ws
   port: '8443'
   server: 104.17.148.22
@@ -126,7 +119,7 @@ proxies:
         Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /
   xudp: true
-- name: 1|🇩🇪9 |  4.4MB/s|20%|Openai
+- name: 0|🇩🇪9 |  4.4MB/s|20%|Openai
   network: ws
   port: '2082'
   server: 104.17.148.22
@@ -141,7 +134,7 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇩🇪10 |  2.0MB/s|39%|Openai
+  name: 0|🇩🇪10 |  2.0MB/s|39%|Openai
   network: ws
   port: '8443'
   server: www.speedtest.net
@@ -157,7 +150,7 @@ proxies:
         Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /
   xudp: true
-- name: 1|🇩🇪11 |  1.6MB/s|20%|Disney|Ope...
+- name: 0|🇩🇪11 |  1.6MB/s|20%|Disney|Ope...
   network: ws
   port: '80'
   server: 170.114.45.171
@@ -171,7 +164,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: 'Telegram: @vpnAndroid2/?ed=2560'
   xudp: true
-- name: 1|🇩🇪12 |  4.8MB/s|20%|Disney|Ope...
+- name: 0|🇩🇪12 |  4.8MB/s|20%|Disney|Ope...
   network: ws
   port: '80'
   server: 193.9.49.158
@@ -186,9 +179,16 @@ proxies:
     path: 'Telegram: @vpnAndroid2/?ed=2560'
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 2657067e-7ae2-4ae4-8394-e466e2cf4dd9
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 62c518d8-4e36-4f29-85f7-fb2d9157908f
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: d05fa9be-55f3-4fdc-a37d-3ce4d860af15
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true

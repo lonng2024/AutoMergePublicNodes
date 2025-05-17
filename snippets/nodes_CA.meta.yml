@@ -1,21 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: cf1a0e4b-29fc-4cef-a26e-df476c7d6c7a
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 11ee49a2-7f91-4bbb-ab72-d79f31f123bb
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 834c891d-fc3b-4c25-8007-d1d9bf1452c5
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CA_speednode_0022
+  name: 13|CA_speednode_0022
   port: 56565
   reality-opts:
     public-key: 59iI-5g0yQ3r6ZaoBOQSWOCnMw6_t_q0oS4gXngXhW0
@@ -29,7 +22,7 @@ proxies:
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CA_speednode_0023
+  name: 13|CA_speednode_0023
   port: 443
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg

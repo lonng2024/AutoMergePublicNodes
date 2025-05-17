@@ -1,18 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 62c518d8-4e36-4f29-85f7-fb2d9157908f
-  port: 31143
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 9d130a03-b901-4c97-9836-2f220dc16acd
+  port: 36143
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 62c518d8-4e36-4f29-85f7-fb2d9157908f
-  port: 31145
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 9d130a03-b901-4c97-9836-2f220dc16acd
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf
+  delay: 763
+  name: 1|🇭🇰1 |  2.7MB/s|16%|Disney
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: sGWdzYDx5J
+  port: 43125
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: csilicovolcanoconiosis.godeove.xyz
+  type: ssr
+  udp: true
+- name: 1|🇭🇰2 |  5.1MB/s|16%|Netflix|Dis...
+  password: RlzoEILU
+  port: 15624
+  server: 36.156.102.124
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰3 |  3.5MB/s|Disney
+  password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
+  port: 49709
+  server: jg647hf446ghvw.gym0boy.com
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
@@ -157,16 +181,16 @@ proxies:
       Host: skwygx.top
     path: /tr
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: d05fa9be-55f3-4fdc-a37d-3ce4d860af15
-  port: 36143
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 02 | 1x HK
+  password: 9387d0b0-c32c-47d8-b4b9-1c6ddb5ed494
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: d05fa9be-55f3-4fdc-a37d-3ce4d860af15
-  port: 36145
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港家宽 03 | 1x HK
+  password: 9387d0b0-c32c-47d8-b4b9-1c6ddb5ed494
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

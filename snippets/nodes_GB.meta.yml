@@ -1,11 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 62c518d8-4e36-4f29-85f7-fb2d9157908f
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 9d130a03-b901-4c97-9836-2f220dc16acd
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 9d130a03-b901-4c97-9836-2f220dc16acd
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 1|🇬🇧1 |  1.6MB/s|33%|Openai
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xN9xmYjM5o_W7IpLQnKNPd2TZbtCZhGFjtvHg0XP9hU
+    short-id: 67dcdbd6ed95f729
+  server: G1.misaghreserve.ir
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84ce5157-4867-4bea-8ae9-f1d7afe3b0ed
+  xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - /Join_Bade_Channel@JOKERRVPN
+    path:
+    - /
+  name: 1|🇬🇧2 |  1.8MB/s|33%|Openai
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xN9xmYjM5o_W7IpLQnKNPd2TZbtCZhGFjtvHg0XP9hU
+    short-id: 67dcdbd6ed95f729
+  server: 77.110.101.46
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84ce5157-4867-4bea-8ae9-f1d7afe3b0ed
+  xudp: true
 - alpn:
   - h3
   name: 9|🇬🇧@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
@@ -303,16 +344,16 @@ proxies:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: d05fa9be-55f3-4fdc-a37d-3ce4d860af15
-  port: 36141
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: 9387d0b0-c32c-47d8-b4b9-1c6ddb5ed494
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: d05fa9be-55f3-4fdc-a37d-3ce4d860af15
-  port: 36271
-  server: free.2weradf.xyz
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: 9387d0b0-c32c-47d8-b4b9-1c6ddb5ed494
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

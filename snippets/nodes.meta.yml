@@ -7,7 +7,7 @@ proxies:
   sni: addons.mozilla.org
   tls: false
   type: hysteria2
-- name: 9|@i10VPN - Psiphon 46
+- name: 9|@techbod
   password: DBUklcvOyH
   port: 443
   server: 45.81.19.251
@@ -23,6 +23,16 @@ proxies:
   server: x.kishonline.online
   skip-cert-verify: false
   sni: x.kishonline.online
+  tls: false
+  type: hysteria2
+- name: '9|@techbod #1'
+  obfs: salamander
+  obfs-password: kish-data-center
+  password: Kz0JGcGICb
+  port: 443
+  server: srm.kishonline.online
+  skip-cert-verify: false
+  sni: srm.kishonline.online
   tls: false
   type: hysteria2
 - name: '9|Telegram : @V2ynpv'

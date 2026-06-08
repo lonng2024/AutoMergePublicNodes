@@ -93,7 +93,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|@FreakConfig
+- name: 9|🇩🇪@FreakConfig
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -103,7 +103,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@FreakConfig
+- name: '9|🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -123,7 +123,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|https://t.me/AarazV2ray
+- name: '9|https://t.me/AarazV2ray #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -133,7 +133,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #1'
+- name: '9|🇩🇪@FreakConfig #2'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -173,41 +173,11 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '9|@internet_azad_2026 #7'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 4040
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '9|https://t.me/v2rayNplus |🇩🇪 #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 44044
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: 9|⚡@V2ray_official
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 444
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '9|https://t.me/v2rayNplus |🇩🇪 #2'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 54040
   server: 18.157.222.169
   skip-cert-verify: false
   sni: free.masir-sefid.shop
@@ -221,46 +191,6 @@ proxies:
   server: 18.157.222.169
   skip-cert-verify: false
   sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '9|@internet_azad_2026 #11'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 1040
-  server: 84.234.31.190
-  skip-cert-verify: false
-  sni: free3.masir-sefid-1.my
-  tls: false
-  type: hysteria2
-- name: '9|@internet_azad_2026 #12'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 4040
-  server: 84.234.31.190
-  skip-cert-verify: false
-  sni: free3.masir-sefid-1.my
-  tls: false
-  type: hysteria2
-- name: '9|@internet_azad_2026 #13'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 54040
-  server: 84.234.31.190
-  skip-cert-verify: false
-  sni: free3.masir-sefid-1.my
-  tls: false
-  type: hysteria2
-- name: '9|@internet_azad_2026 #14'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 8880
-  server: 84.234.31.190
-  skip-cert-verify: false
-  sni: free3.masir-sefid-1.my
   tls: false
   type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
@@ -283,7 +213,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|https://t.me/@FREE_VPN02
+- name: '9|https://t.me/AarazV2ray #2'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
@@ -313,14 +243,13 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|🇦🇪AE-🚀@VPNine1
+- name: '9|⚫ 12 • @spotfyhits '
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   port: 443
   server: hy2.aspidnet.xyz
   skip-cert-verify: false
-  sni: ''
   tls: false
   type: hysteria2
 - name: '9|: @SIMSEFYD'

@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|+@Azarakhsh_Proxy+
+- name: 9|🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -190,6 +190,14 @@ proxies:
   port: 443
   server: hy2.aspidnet.xyz
   skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 9|67375 | ️Telegram = t.me/SOSke...
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb

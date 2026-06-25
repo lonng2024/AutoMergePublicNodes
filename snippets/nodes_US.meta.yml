@@ -1,10 +1,18 @@
 proxies:
-- name: 8|美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
+- name: 8|US_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.203.4.232
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|US_@QiangLieTuiJian
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: hy4.466688.xyz
+  skip-cert-verify: true
+  sni: https://t.me/QiangLieTuiJian
   tls: false
   type: hysteria2
 - name: 11,12|美国|@ripaojiedian

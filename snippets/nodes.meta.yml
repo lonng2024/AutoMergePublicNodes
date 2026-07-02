@@ -25,9 +25,33 @@ proxies:
 - name: 7|SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 47.129.160.62
+  server: 18.143.174.148
   skip-cert-verify: true
   sni: https://t.me/WangCai2
+  tls: false
+  type: hysteria2
+- name: 7|🇸🇬SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 47.129.3.178
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '7|🇸🇬SG_@WangCai_8 #1'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.179.153.191
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: '7|🇸🇬SG_@WangCai_8 #2'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.255.238.222
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 7|DE
@@ -78,6 +102,13 @@ proxies:
   sni: fta.fontanvpn.com
   tls: false
   type: hysteria2
+- name: 8|68@oneclickvpnkeys
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  port: 443
+  server: fta.fontanvpn.com
+  sni: fta.fontanvpn.com
+  tls: false
+  type: hysteria2
 - name: 8|️@ATLAS_V2VPN️️432️
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
@@ -86,6 +117,40 @@ proxies:
   server: 2.26.49.16
   skip-cert-verify: false
   sni: social.klipp.su
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 8|US-@VPNine1
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: 185.106.96.231
+  sni: u691611us849.ccgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 8|🇺🇸US-🚀@VPNine1
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: 192.3.118.133
+  sni: u691611udb8727a3s2316.sspcccdn.xyz
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 8|NL-🚀@VPNine1
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: 193.142.59.97
+  sni: u691611us1244.csgfw.top
+  tls: false
+  type: hysteria2
+- name: '8|🇺🇸US-🚀@VPNine1 #1'
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: 23.166.40.27
+  sni: u691611u2e827823s79.sspcccdn.xyz
   tls: false
   type: hysteria2
 - name: 8|+@Azarakhsh_Proxy+
@@ -108,7 +173,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 8| - NL - @FreeOnlineVPN
+- name: 8|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -128,7 +193,23 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|42@oneclickvpnkeys
+- name: 8|🇺RU-🚀@VPNine1
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  port: 8444
+  server: wlte3.nimarko.org
+  skip-cert-verify: false
+  sni: testing8.nimarko.org
+  tls: false
+  type: hysteria2
+- name: 8|🇷🇺RU-🚀@VPNine1
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  port: 8451
+  server: wlte9.nimarko.org
+  skip-cert-verify: false
+  sni: testing7.nimarko.org
+  tls: false
+  type: hysteria2
+- name: 8|🏠42@oneclickvpnkeys
   password: dongtaiwang.com
   port: 13377
   server: www.838491.xyz
@@ -200,7 +281,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 8|🇩🇪@V2raybazi
+- name: 8|🇪@V2raybazi
   password: zhangyang
   port: 6443
   server: 130.61.50.75

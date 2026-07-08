@@ -29,10 +29,11 @@ hysteria2://653m8mmiy7048p0f@2.26.49.16:443?insecure=0&sni=social.klipp.su&obfs=
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.229.60.114:443?insecure=1#9%7C%F0%9F%95%B9%EF%B8%8F53%40v2ray_configs_pools
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.229.94.221:443?insecure=1&sni=https://t.me/WangCai2🇨🇳#9%7C%F0%9F%95%B9%EF%B8%8F50%40v2ray_configs_pools
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.118.252.192:443?insecure=1#9%7C50%40oneclickvpnkeys
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.190.219.163:443?insecure=1&sni=https://t.me/WangCai2🇨🇳#9%7C89%40oneclickvpnkeys
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.221.163.56:443?insecure=1#9%7C%F0%9F%92%A149%40oneclickvpnkeys
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@34.219.182.57:443?insecure=1#9%7C%F0%9F%92%A155%40oneclickvpnkeys
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.149.34.181:443?insecure=1#9%7C%F0%9F%92%A153%40oneclickvpnkeys
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.169.233.33:443?insecure=1&sni=https://t.me/WangCai2🇨🇳#9%7C51%40oneclickvpnkeys
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.169.233.33:443?insecure=1&sni=https://t.me/WangCai2🇨🇳#9%7C%F0%9F%92%A151%40oneclickvpnkeys
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@54.245.180.117:443?insecure=1#9%7C%F0%9F%92%A156%40oneclickvpnkeys
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-us-003.fastervpn.world:443?insecure=1&sni=vpn-us-003.fastervpn.world#9%7C%EF%B8%8F54%40v2ray_configs_pools
 hysteria2://Hd04Vxxpn2@91.107.152.188:40460?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#9%7C%40V2RayyNGvpn
@@ -82,3 +83,4 @@ vless://52faee73-e0fe-4661-992d-67259257170f@45.206.0.29:8443?allowInsecure=0&sn
 vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14005?allowInsecure=1&sni=apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#13%7CUS_speednode_0055
 vless://057f3c26-0fe7-4315-aabc-90c79d413d70@38.244.20.69:443?allowInsecure=1&sni=www.apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#13%7CUS_speednode_0056
 trojan://Mitivpn@iranpoems.ir:443?allowInsecure=0&sni=www.gamingdll.ir&type=ws&host=www.gamingdll.ir&path=/usa=mitivpn#13%7CUS_speednode_0063
+hhysteria2://03e7f55f-22f8-4564-880f-b86c8cdbf140@45.196.182.181:8449/?insecure=1&sni=sni.fi-m247-02.com#5🎲@oneclickvpnkeys

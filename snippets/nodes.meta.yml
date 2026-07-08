@@ -220,14 +220,6 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: 9|🕹️41@v2ray_configs_pools
-  password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
-  port: 36713
-  server: 107.173.11.163
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: 9|🕹️53@v2ray_configs_pools
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

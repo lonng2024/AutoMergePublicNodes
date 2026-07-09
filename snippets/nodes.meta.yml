@@ -71,14 +71,6 @@ proxies:
   sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
-- name: 9|60@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.190
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
 - name: 9|104400 | Telegram = t.me/v2ray...
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -313,30 +305,20 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|未命名
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TGzLlWQaFb
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: TGzLlWQaFb
+  password: QjdEEystFJ
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|V2RayyNGvpn🇩🇪
+- name: 9|🇩🇪@V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TWlkdqFSQH
+  password: TGzLlWQaFb
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true

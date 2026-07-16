@@ -162,6 +162,16 @@ proxies:
 - name: 9|🇩🇪Telegram=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
+  password: Ov5kSglMCd
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '9|🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
   password: RKJDOKrcIZ
   port: 31999
   server: 91.107.152.188
@@ -197,7 +207,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple   تا
+- name: 9|@prrofile_purple  ️ تا
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNgvpn

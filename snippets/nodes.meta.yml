@@ -87,7 +87,7 @@ proxies:
   sni: kamil-power-machine.roxa.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2rayng_Fast
+- name: 9|@FreakConfig
   obfs: salamander
   obfs-password: ngljeqgna3hmfr2s
   password: 91uokb9ud7raz0fk
@@ -149,7 +149,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2rayng_Fast #1'
+- name: 9|🇩🇪@V2rayng_Fast
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: NZC2w2V2NQ

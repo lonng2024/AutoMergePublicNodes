@@ -1,5 +1,5 @@
 proxies:
-- name: 7|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 7,8|@KAFING_2
+- name: 8,9|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@V2RayyNGvpn ا 🇩🇪
+- name: 9|@V2RayyNGvpn ا 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 92QgVKZjWa
@@ -27,7 +27,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|️Telegram=V2RayyNGvpn🇩🇪
+- name: 9|️Telegram=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: KJX4HQHodA
@@ -37,7 +37,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪Telegram=V2RayyNGvpn🇩🇪
+- name: 9|🇩🇪Telegram=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: Ov5kSglMCd
@@ -47,7 +47,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
+- name: '9|🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RKJDOKrcIZ
@@ -57,7 +57,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪Telegram=V2RayyNGvpn
+- name: 9|🇩🇪Telegram=V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNGvpn-
@@ -67,7 +67,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪Telegram=V2RayyNGvpn #1'
+- name: '9|🇩🇪Telegram=V2RayyNGvpn #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: ZkaDQncyundefineda
@@ -77,7 +77,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪@V2RayyNGvpn کانال ما
+- name: 9|🇩🇪@V2RayyNGvpn کانال ما
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tf5LINcpQy

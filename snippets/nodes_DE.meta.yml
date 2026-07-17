@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: 7|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8,9|@KAFING_2
+- name: 7,8|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -15,5 +15,75 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 8|@V2RayyNGvpn ا 🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 92QgVKZjWa
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 8|️Telegram=V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T-ME-V2RayyNGvpn
+  password: KJX4HQHodA
+  port: 25810
+  server: 91.107.174.32
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪Telegram=V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: Ov5kSglMCd
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '8|🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: RKJDOKrcIZ
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪Telegram=V2RayyNGvpn
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: V2RayyNGvpn-
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '8|🇩🇪Telegram=V2RayyNGvpn #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: ZkaDQncyundefineda
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪@V2RayyNGvpn کانال ما
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: tf5LINcpQy
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2

@@ -151,7 +151,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|@mehrosaboran
+- name: 8|telegram @mtmvpn 15
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: UUoAsk2eM4

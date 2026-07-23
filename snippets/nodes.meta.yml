@@ -217,6 +217,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 8|🇺🇸120253 | Telegram = t.me/SOS...
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  skip-cert-verify: false
+  sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
 - name: 8|📪20@oneclickvpnkeys
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8443
@@ -245,7 +253,7 @@ proxies:
   sni: de5-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple   ا
+- name: 8|@prrofile_purple  ️ ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -292,13 +300,13 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|@Unblocked_ir
+- name: '8|@mehrosaboran #2'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   port: 443
   server: 130.49.161.70
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2

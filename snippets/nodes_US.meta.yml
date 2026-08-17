@@ -63,7 +63,7 @@ proxies:
   sni: 35-209-199-239.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 9|🇺🇸145134 | ⚡️Telegram = t.me/S...
+- name: 9|🇺🇸145134 | ️Telegram = t.me/SO...
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
   server: hy2.123266.xyz

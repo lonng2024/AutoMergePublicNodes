@@ -177,5 +177,5 @@ vless://53b59cb5-c741-3399-9065-93dc34685f5b@155.117.199.12:31877?allowInsecure=
 vless://53b59cb5-c741-3399-9065-93dc34685f5b@155.117.199.12:39395?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0125
 vless://53b59cb5-c741-3399-9065-93dc34685f5b@155.117.199.12:9713?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0127
 vless://53b59cb5-c741-3399-9065-93dc34685f5b@155.117.199.12:29709?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0137
-hhysteria2://08794874-93d0-4cf2-b9d6-1f2774cdffeb@144.31.1.28:2086?security=tls&insecure=1&sni=panel.vlessbotkey.ru#|PL|@wxgqlfx|121
 hhy2://08794874-93d0-4cf2-b9d6-1f2774cdffeb@144.31.5.9:2101/?insecure=1&sni=panel.vlessbotkey.ru#兰
+hhysteria2://08794874-93d0-4cf2-b9d6-1f2774cdffeb@144.31.1.28:2086?security=tls&insecure=1&sni=panel.vlessbotkey.ru#|PL|@wxgqlfx|121

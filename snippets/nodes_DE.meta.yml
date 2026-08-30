@@ -40,12 +40,20 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8,9|🇷🇺156002 | ⚡️Telegram = t.me/S...
+- name: 8,9|4🐲@oneclickvpnkeys
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
   skip-cert-verify: true
   sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 9|19@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.118
+  skip-cert-verify: true
+  sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
 - name: 9|🇩🇪All | @BigSmoke_Config

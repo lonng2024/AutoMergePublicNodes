@@ -276,16 +276,6 @@ proxies:
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 1m1xfvpaa5ek4omq
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|@v2ray_phoenix #2'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 1m1xfvpaa5ek4omq
   port: 52033
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
@@ -335,7 +325,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@v2ray_phoenix #3'
+- name: '9|@v2ray_phoenix #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 4savc5ig1n3549e4
@@ -489,6 +479,13 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
+- name: 9|163214 | ⚡️Telegram = t.me/SOS...
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
 - name: 9|️37@oneclickvpnkeys
   password: BWAFlp8g53
   port: 443
@@ -503,7 +500,7 @@ proxies:
   sni: hy2-latvia2.unlimited-access.ru
   tls: false
   type: hysteria2
-- name: 9|🇩162999 | ⚡️Telegram = t.me/SO...
+- name: 9|☺️97@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.174
@@ -639,7 +636,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇩🇪163005 | ⚡️Telegram = t.me/S...
+- name: 9|5☺️@oneclickvpnkeys
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -697,7 +694,7 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- name: '9|@v2ray_phoenix #4'
+- name: '9|@v2ray_phoenix #3'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fmaznn1lrzys7ddy
@@ -952,7 +949,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|19@oneclickvpnkeys
+- name: 9|🩳19@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.149

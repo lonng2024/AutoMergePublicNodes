@@ -1,11 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|韩国|@ripaojiedian
+  name: 11,12|韩国|@ripaojiedian
   network: ws
   port: '443'
   server: 8nTzyR5KNivfabaT.v.3dns.vip
   servername: 8nTzyR5KNivfabaT.v.3dns.vip
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888

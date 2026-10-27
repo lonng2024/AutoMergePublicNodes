@@ -9,7 +9,25 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@Shh_Proxy-New¹
+- name: 8,9| @prrofile_purple (ا)
+  obfs: salamander
+  obfs-password: qkdqum5rllpyup7h
+  password: dfo5i9p6payp29i0
+  port: 22357
+  server: ll5xoe8j.easyiran.org
+  skip-cert-verify: false
+  sni: ll5xoe8j.easyiran.org
+  tls: false
+  type: hysteria2
+- name: 8|139909 | ⚡️Telegram = t.me/SOS...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 9|@V2rayng_mar_ket
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
   password: 35d26d53bc
@@ -79,6 +97,28 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 9|🇩🇪200800 | Telegram = t.me/SOS...
+  password: 9qFAF3s4R7wkGxcI0fonColtap41RUTsWdW
+  port: 30396
+  server: 45.131.65.244
+  skip-cert-verify: false
+  sni: pisulka.jsbox.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  fingerprint: chrome
+  name: 9|telegram:@pirozi_ArGaP
+  obfs: salamander
+  obfs-password: TYrQkc4C2MJMKlzlge0M_hrH
+  password: EOaHwQIGHSjmsbYl_g6nPanNsQ2td2Yv
+  port: 8443
+  server: ip.immahan.ir
+  sni: tr.tu5pars.ir
+  tls: false
+  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -87,13 +127,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 9|@V2ray_confiig
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: me17.msjia8844.site
-  sni: me17.msjia8844.site
   tls: false
   type: hysteria2
 - name: 9|@FarazV2ray
@@ -212,7 +245,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@V2rayng_mar_ket
+- name: '9|@V2rayng_mar_ket #1'
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
   password: ca78f919e6
@@ -222,7 +255,7 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 9|🇳🇱200578 | ⚡Telegram = t.me/SO...
+- name: 9|🇳🇱200697 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: ypvL8T4HFIBLoH8q
   password: capadm54312235
@@ -294,7 +327,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@fastkanfig کانال ا
+- name: 9|@fastkanfig کانال تلگرام
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls

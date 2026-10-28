@@ -22,7 +22,15 @@ proxies:
   sni: nl1.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 9|🇫🇮201470 | ⚡️Telegram = t.me/S...
+- name: 9|🇪201602 | ⚡️Telegram = t.me/SO...
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  port: 4443
+  server: ee2.obxodvpn.us
+  skip-cert-verify: false
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: 9|🇮201470 | ⚡️Telegram = t.me/SO...
   password: 146d567c-6335-4e63-a8aa-7ec068642440
   port: 4443
   server: fi1.obxodvpn.us
@@ -50,7 +58,7 @@ proxies:
   sni: srv-0e5387.frd21.ru
   tls: false
   type: hysteria2
-- name: 9|🇫🇮FI-@VPNine1
+- name: 9|🇫🇮201490 | ⚡️Telegram = t.me/S...
   password: 46c16b68-2553-4e5e-8176-f63d6bf6ec0c
   port: 443
   server: fl.solomon-planet.ru
@@ -334,7 +342,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv

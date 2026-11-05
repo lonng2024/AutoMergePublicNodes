@@ -1,4 +1,12 @@
 proxies:
+- name: 9|🇺🇸207351 | ⚡️Telegram = t.me/L...
+  password: kztyblVC7ZlEKR3ZO5HW
+  port: 443
+  server: 142.11.207.17
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 11,12|🇺🇸US02|@ripaojiedian
